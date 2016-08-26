@@ -1,3 +1,7 @@
 class Brand < ActiveRecord::Base
-	validates_presence_of:name
+	validates :name,
+		presence: true
+
+	validates :year_founded,
+		numericality: true
 end
