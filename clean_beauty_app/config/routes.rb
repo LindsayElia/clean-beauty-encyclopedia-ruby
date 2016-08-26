@@ -1,56 +1,23 @@
 Rails.application.routes.draw do
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+    
+    root 'statics#index'
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+    get 'products/index'
 
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+    get 'products/show'
 
-  # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
+    get 'brands/index'
 
-  # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
+    get 'brands/show'
 
-  # Example resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
+    get 'statics/index'
 
-  # Example resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
-
-  # Example resource route with more complex sub-resources:
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', on: :collection
-  #     end
-  #   end
-
-  # Example resource route with concerns:
-  #   concern :toggleable do
-  #     post 'toggle'
-  #   end
-  #   resources :posts, concerns: :toggleable
-  #   resources :photos, concerns: :toggleable
-
-  # Example resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
 end
+
+#         Prefix Verb URI Pattern               Controller#Action
+#           root GET  /                         statics#index
+# products_index GET  /products/index(.:format) products#index
+#  products_show GET  /products/show(.:format)  products#show
+#   brands_index GET  /brands/index(.:format)   brands#index
+#    brands_show GET  /brands/show(.:format)    brands#show
+#  statics_index GET  /statics/index(.:format)  statics#index
