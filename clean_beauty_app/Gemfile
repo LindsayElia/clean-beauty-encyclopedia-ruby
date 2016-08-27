@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # for web crawling and scraping
 gem 'nokogiri'
 gem 'rest-client'
+gem 'json'
 
 # For use in development and test environments
 group :development, :test do
