@@ -30,12 +30,12 @@ product_links.each do |product_link|
 	image_alt = product_body.css(".main-image a img")[0]["alt"]
 	ingredients_grouping = product_body.css("#tab3").text.strip
 	product_details.push(
-	name: name,
-	price: price,
-	size: size,
-	image_url: image_url,
-	image_alt: image_alt,
-	ingredients_grouping: ingredients_grouping
+		name: name,
+		price: price,
+		size: size,
+		image_url: image_url,
+		image_alt: image_alt,
+		ingredients_grouping: ingredients_grouping
 	)
 end
 
