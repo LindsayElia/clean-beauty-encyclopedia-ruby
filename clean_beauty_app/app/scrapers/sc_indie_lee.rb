@@ -26,7 +26,7 @@ product_links.each do |product_link|
 	size = product_body.css(".weight").text.chop	# chop remove last character from string
 	image_url = product_body.css("#image")[0]["src"]
 	image_alt = product_body.css("#image")[0]["alt"]
-	ingredients_grouping = product_body.css(".product-ingredients .content").text.strip 	
+	ingredients_grouping = product_body.css(".product-ingredients .content").text.strip		# strip removes all extra spaces
 	product_details.push(
 		name: name,
 		price: price,
