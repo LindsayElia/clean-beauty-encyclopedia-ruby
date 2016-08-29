@@ -2,7 +2,9 @@ require 'nokogiri'
 require 'rest-client'
 require 'json'
 
+# page with all the links to obtain
 list_one_love_organics = "http://shop.oneloveorganics.com"
+
 # get the html for the whole page
 list_body = Nokogiri::HTML(RestClient.get(list_one_love_organics))   
 
@@ -37,6 +39,13 @@ product_links.each do |product_link|
 	)
 end
 
-puts JSON.pretty_generate(product_details)
+readable_product_details = JSON.pretty_generate(product_details)
 
+# print to console
+puts readable_product_details
+
+# write to file
+File.open("../../db/data_from_scraping/one_love_organics.json", "w") do |f|
+	f.write(readable_product_details)
+end
 
