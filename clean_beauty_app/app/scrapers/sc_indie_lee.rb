@@ -9,7 +9,7 @@ list_indie_lee = "http://indielee.com/shop/all-products"
 list_body = Nokogiri::HTML(RestClient.get(list_indie_lee))   
 
 product_links = []
-# for each element that is of class .prod_box .p_img and a tag, loop over
+# for each element that is of class .product-image, loop over
 list_body.css(".product-image").each do |link|
 	# get the href for the a tag
 	link_url = link["href"]
