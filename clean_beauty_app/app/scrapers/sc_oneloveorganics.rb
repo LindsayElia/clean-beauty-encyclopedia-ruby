@@ -25,7 +25,7 @@ product_links.each do |product_link|
 	name = product_body.css(".title").text.strip  	# strip removes all extra spaces
 	price = product_body.css(".price").text.strip
 	size = product_body.css(".prod_size span").text
-	image_url_string = product_body.css(".main-image a img")[0]["src"]	#this may change when I am doing a loop
+	image_url_string = product_body.css(".main-image a img")[0]["src"]
 	image_url = image_url_string[2..-1]			# Remove first two characters from string. Returns characters starting at index 2 until end.
 	image_alt = product_body.css(".main-image a img")[0]["alt"]
 	ingredients_grouping = product_body.css("#tab3").text.strip
