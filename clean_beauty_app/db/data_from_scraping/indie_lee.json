@@ -1,7 +1,7 @@
 [
   {
     "name": "Squalane Facial Oil",
-    "price": "$32.00",
+    "price": "32.00",
     "size": "1oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/s/q/squalane-oil-460_1.jpg",
     "image_alt": "Squalane Facial Oil",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Brightening Cleanser ",
-    "price": "$32.00",
+    "price": "32.00",
     "size": "4oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/b/r/brightening-cleanser-460.jpg",
     "image_alt": "Brightening Cleanser ",
@@ -17,7 +17,7 @@
   },
   {
     "name": "CoQ-10 Toner",
-    "price": "$32.00",
+    "price": "32.00",
     "size": "4oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/c/o/coq10-460.jpg",
     "image_alt": "CoQ-10 Toner",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Calendula Eye Balm",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "0.5oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/c/a/calendula-eye-460.jpg",
     "image_alt": "Calendula Eye Balm",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Rosehip Cleanser",
-    "price": "$32.00",
+    "price": "32.00",
     "size": "4oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/r/o/rosehip-cleanser-460.jpg",
     "image_alt": "Rosehip Cleanser",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Squalane Facial Cream",
-    "price": "$70.00",
+    "price": "70.00",
     "size": "1oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/s/q/squalane-cream-460.jpg",
     "image_alt": "Squalane Facial Cream",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Swiss Apple Facial Serum",
-    "price": "$130.00",
+    "price": "130.00",
     "size": "1oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/s/w/swiss-apple-460.jpg",
     "image_alt": "Swiss Apple Facial Serum",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Anti Aging Kit",
-    "price": "$210.00",
+    "price": "210.00",
     "size": "0oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/a/n/anti-age-kit-composite-2.jpg",
     "image_alt": "Anti Aging Kit",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Blemish Lotion",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "1oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/b/l/blemish-lotion-460_1.jpg",
     "image_alt": "Blemish Lotion",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Blemish Stick",
-    "price": "$28.00",
+    "price": "28.00",
     "size": "0.35oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/b/l/blemish-stick-460.jpg",
     "image_alt": "Blemish Stick",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Clear Complexion Kit",
-    "price": "\n                    $110.00                \n                    $99.00                ",
+    "price": "                    $110.00                \n                    $99.00                ",
     "size": "0oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/c/o/complexion-kit-composite-2.jpg",
     "image_alt": "Clear Complexion Kit",
@@ -89,7 +89,7 @@
   },
   {
     "name": "Clearing Mask",
-    "price": "$60.00",
+    "price": "60.00",
     "size": "1.7oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/c/l/clearing-mask-460.jpg",
     "image_alt": "Clearing Mask",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Hydrating Body Balm",
-    "price": "$32.00",
+    "price": "32.00",
     "size": "1oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/b/o/body-balm-460.jpg",
     "image_alt": "Hydrating Body Balm",
@@ -105,7 +105,7 @@
   },
   {
     "name": "Lavender Chamomile Moisturizing Oil",
-    "price": "$36.00",
+    "price": "36.00",
     "size": "4oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/l/a/lavender-oil-460.jpg",
     "image_alt": "Lavender Chamomile Moisturizing Oil",
@@ -113,7 +113,7 @@
   },
   {
     "name": "Vanilla Citrus Moisturizing Oil",
-    "price": "$36.00",
+    "price": "36.00",
     "size": "4oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/v/a/vanilla-oil-460.jpg",
     "image_alt": "Vanilla Citrus Moisturizing Oil",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Patchouli Sandalwood Moisturizing Oil",
-    "price": "$36.00",
+    "price": "36.00",
     "size": "4oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/p/a/patchuoli-460.jpg",
     "image_alt": "Patchouli Sandalwood Moisturizing Oil",
@@ -129,7 +129,7 @@
   },
   {
     "name": "Coconut Citrus Body Scrub",
-    "price": "$38.00",
+    "price": "38.00",
     "size": "8oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/c/o/coconut-scrub-460.jpg",
     "image_alt": "Coconut Citrus Body Scrub",
@@ -137,7 +137,7 @@
   },
   {
     "name": "Lemongrass Calendula Body Lotion",
-    "price": "$22.00",
+    "price": "22.00",
     "size": "6oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/l/e/lemongrass-lotion-460.jpg",
     "image_alt": "Lemongrass Calendula Body Lotion",
@@ -145,7 +145,7 @@
   },
   {
     "name": "Lemongrass Citrus Body Wash",
-    "price": "$22.00",
+    "price": "22.00",
     "size": "8oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/b/o/body-wash-460.jpg",
     "image_alt": "Lemongrass Citrus Body Wash",
@@ -153,7 +153,7 @@
   },
   {
     "name": "Unscented Body Lotion",
-    "price": "$22.00",
+    "price": "22.00",
     "size": "6oz",
     "image_url": "http://indielee.com/shop/media/catalog/product/cache/1/image/460x/17f82f742ffe127f42dca9de82fb58b1/u/n/unscented-lotion-460.jpg",
     "image_alt": "Unscented Body Lotion",

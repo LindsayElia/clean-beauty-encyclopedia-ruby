@@ -1,7 +1,7 @@
 [
   {
     "name": "All Your Gold | SPF 20",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "1.7oz/ 50 ml",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_All_Your_Gold_Tube_1024x1024.jpg?v=1456963217",
     "image_alt": "All Your Gold Radiant Beauty Balm SPF 20",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Moondance | SPF 20",
-    "price": "",
+    "price": null,
     "size": "0.07oz / 2.3g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Moondance_open_1024x1024.jpg?v=1456963032",
     "image_alt": "ILIA Moondance Radiant Translucent Powder",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Bombora | SPF 15",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Bombora_16_1024x1024.jpg?v=1457634123",
     "image_alt": "Bombora Tinated Lip Conditioner SPF 15",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Kokomo | SPF 15",
-    "price": "",
+    "price": null,
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Kokomo_1024x1024.jpg?v=1456963158",
     "image_alt": "KokomoTinted Lip Conditioner SPF 15",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Balmy Rays | SPF 15",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/IliaBeauty-Balmy-Rays_1024x1024.jpg?v=1456963295",
     "image_alt": "Balmy Rays Lip Conditioner SPF 15",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Balmy Days",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/IliaBeauty-Balmy-Days_1024x1024.jpg?v=1327533393",
     "image_alt": "Balmy Days",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Balmy Nights",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/IliaBeauty-BalmyNights_1024x1024.jpg?v=1327533536",
     "image_alt": "Balmy Nights",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Bang Bang",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_BangBang_1024x1024.png?v=1389476589",
     "image_alt": "Bang Bang",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Blossom Lady",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_BlossomLady_1024x1024.png?v=1389476613",
     "image_alt": "Blossom Lady",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Lust For Life",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_LustForLife_1024x1024.png?v=1389476718",
     "image_alt": "Lust For Life",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Arabian Knights",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_ArabianKnights_1024x1024.png?v=1389476554",
     "image_alt": "Arabian Knights",
@@ -89,7 +89,7 @@
   },
   {
     "name": "Nobody's Baby",
-    "price": "",
+    "price": null,
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_NobodysBaby_1024x1024.png?v=1389476741",
     "image_alt": "Nobody's Baby",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Neon Angel",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_NeonAngel_1024x1024.png?v=1389474311",
     "image_alt": "Neon Angel",
@@ -105,7 +105,7 @@
   },
   {
     "name": "Crimson & Clover",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_CrimsonAndClover_1024x1024.png?v=1389476630",
     "image_alt": "Crimson & Clover",
@@ -113,7 +113,7 @@
   },
   {
     "name": "Dizzy",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_DIzzy_1024x1024.png?v=1389476680",
     "image_alt": "Dizzy",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Femme Fatale",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_FemmeFatale_1024x1024.png?v=1389474431",
     "image_alt": "Femme Fatale",
@@ -129,7 +129,7 @@
   },
   {
     "name": "Around The World",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_AroundTheWorld_1024x1024.png?v=1425526372",
     "image_alt": "Around The World",
@@ -137,7 +137,7 @@
   },
   {
     "name": "Wild Child",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_WildChild_1024x1024.png?v=1389474835",
     "image_alt": "Wild Child",
@@ -145,7 +145,7 @@
   },
   {
     "name": "Jump",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_Jump_1024x1024.png?v=1393901728",
     "image_alt": "Jump",
@@ -153,7 +153,7 @@
   },
   {
     "name": "Ink Pot",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_InkPot_1024x1024.png?v=1389474611",
     "image_alt": "Ink Pot",
@@ -161,7 +161,7 @@
   },
   {
     "name": "Hold Me Now",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_HoldMeNow_1024x1024.png?v=1393902109",
     "image_alt": "Hold Me Now",
@@ -169,7 +169,7 @@
   },
   {
     "name": "Voilà",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_voila_14_1024x1024.png?v=1389474707",
     "image_alt": "Voilà",
@@ -177,7 +177,7 @@
   },
   {
     "name": "In My Room",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_InMyRoom_1024x1024.png?v=1389474583",
     "image_alt": "In My Room",
@@ -185,7 +185,7 @@
   },
   {
     "name": "Pink Moon",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_PinkMoon_1024x1024.png?v=1428372203",
     "image_alt": "Pink Moon",
@@ -193,7 +193,7 @@
   },
   {
     "name": "Strike It Up",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_StrikeItUp_1024x1024.png?v=1411615454",
     "image_alt": "Strike It Up ILIA lipstick",
@@ -201,7 +201,7 @@
   },
   {
     "name": "Shell Shock",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_ShellShock_1024x1024.png?v=1389476763",
     "image_alt": "Shell Shock",
@@ -209,7 +209,7 @@
   },
   {
     "name": "These Days",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_TheseDays_1024x1024.png?v=1396725072",
     "image_alt": "ILIA Beauty These Days Lip Conditioner",
@@ -217,7 +217,7 @@
   },
   {
     "name": "Pink Kashmir",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_PinkKashmir_1024x1024.png?v=1389475242",
     "image_alt": "Pink Kashmir",
@@ -225,7 +225,7 @@
   },
   {
     "name": "Perfect Day",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_PerfectDay_1024x1024.png?v=1389475220",
     "image_alt": "Perfect Day",
@@ -233,7 +233,7 @@
   },
   {
     "name": "Humble Me",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_HumbleMe_1024x1024.png?v=1389474530",
     "image_alt": "Humble Me",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Funnel of Love",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_FunnelOfLove_1024x1024.png?v=1389474481",
     "image_alt": "Funnel of Love",
@@ -249,7 +249,7 @@
   },
   {
     "name": "In Paradise",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.14oz / 4g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_InParadise_1024x1024.png?v=1389476699",
     "image_alt": "In Paradise",
@@ -257,7 +257,7 @@
   },
   {
     "name": "Call Me",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.08oz / 2.2g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_CallMe_1024x1024.png?v=1389478696",
     "image_alt": "Call Me",
@@ -265,7 +265,7 @@
   },
   {
     "name": "99 Red Balloons",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.08oz / 2.2g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_99redBalloons_1024x1024.png?v=1389478659",
     "image_alt": "99 Red Balloons",
@@ -273,7 +273,7 @@
   },
   {
     "name": "Iko Iko",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.08oz / 2.2g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_IkoIko_1024x1024.png?v=1389478742",
     "image_alt": "Iko Iko",
@@ -281,7 +281,7 @@
   },
   {
     "name": "Come Undone",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.08oz / 2.2g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_ComeUndone_1024x1024.png?v=1389478705",
     "image_alt": "Come Undone",
@@ -289,7 +289,7 @@
   },
   {
     "name": "Dress You Up",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.08oz / 2.2g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_DressYouUp_1024x1024.png?v=1389478724",
     "image_alt": "Dress You Up",
@@ -297,7 +297,7 @@
   },
   {
     "name": "Karma Chameleon",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.08oz / 2.2g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_KarmaChameleon_1024x1024.png?v=1389478757",
     "image_alt": "Karma Chameleon",
@@ -305,7 +305,7 @@
   },
   {
     "name": "Heartbeat",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.11 oz / 3.2 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_Heartbeat_brush_1024x1024.png?v=1460484416",
     "image_alt": "ILIA Beauty Heart Beat Lip Gloss",
@@ -313,7 +313,7 @@
   },
   {
     "name": "White Rabbit",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.11 oz / 3.2 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_White_Rabbit_brush_1024x1024.png?v=1460484427",
     "image_alt": "ILIA White Rabbit Lip Gloss",
@@ -321,7 +321,7 @@
   },
   {
     "name": "Gypsy",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.11 oz / 3.2 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_gypsy_brush_1024x1024.png?v=1460484411",
     "image_alt": "ILIA Beauty Gypsy Lip Gloss",
@@ -329,7 +329,7 @@
   },
   {
     "name": "Peek A Boo",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.11 oz / 3.2 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_PekABoo_brush_1024x1024.png?v=1460484397",
     "image_alt": "ILIA Beauty Peek A Boo Lip Gloss",
@@ -337,7 +337,7 @@
   },
   {
     "name": "The Butterfly And I",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.11 oz / 3.2 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_ButterflyAndI_brush_1024x1024.png?v=1460484425",
     "image_alt": "ILIA The Butterfly And I Lip Gloss",
@@ -345,7 +345,7 @@
   },
   {
     "name": "Love Buzz",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "0.11 oz / 3.2 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_LoveBuzz_brush_1024x1024.png?v=1460484421",
     "image_alt": "ILIA Beauty Love Buzz Lip Gloss",
@@ -353,7 +353,7 @@
   },
   {
     "name": "A Fine Romance",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "0.176oz / 5 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_AFineRomance_01055ff7-5fe5-4055-b482-fb6adfe9d24b_1024x1024.png?v=1431907203",
     "image_alt": "A Fine Romance ILIA Multi-Stick",
@@ -361,7 +361,7 @@
   },
   {
     "name": "All of Me",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "0.176oz / 5 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_AllOfMe_1024x1024.png?v=1389478541",
     "image_alt": "All of Me",
@@ -369,7 +369,7 @@
   },
   {
     "name": "At Last",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "0.176oz / 5 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_AtLast_05a0caca-e108-42a0-b7e6-23c39bf7ef0f_1024x1024.png?v=1431907023",
     "image_alt": "At Last ILIA Multi Stick",
@@ -377,7 +377,7 @@
   },
   {
     "name": "Cheek to Cheek",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "0.176oz / 5 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_Cheek_to_Cheek_2014JAN_1024x1024.png?v=1390539441",
     "image_alt": "Cheek to Cheek",
@@ -385,7 +385,7 @@
   },
   {
     "name": "Tenderly",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "0.176oz / 5 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_Tenderly_1024x1024.png?v=1389478604",
     "image_alt": "Tenderly",
@@ -393,7 +393,7 @@
   },
   {
     "name": "I Put a Spell on You",
-    "price": "",
+    "price": null,
     "size": "0.176oz / 5 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_IPutASpellOnYou_1024x1024.png?v=1389478585",
     "image_alt": "I Put a Spell on You",
@@ -401,7 +401,7 @@
   },
   {
     "name": "Polka Dots & Moonbeams",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "Highlighting How To With ILIA Illuminators.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_PolkaDotsAndMoonBeams_1024x1024.png?v=1389478474",
     "image_alt": "Polka Dots & Moonbeams",
@@ -409,7 +409,7 @@
   },
   {
     "name": "Cosmic Dancer",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "Highlighting How To With ILIA Illuminators.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_CosmicDancer_1024x1024.png?v=1389478429",
     "image_alt": "Cosmic Dancer",
@@ -417,7 +417,7 @@
   },
   {
     "name": "Sway",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "Highlighting How To With ILIA Illuminators.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_Sway_1024x1024.png?v=1389478510",
     "image_alt": "Sway",
@@ -425,7 +425,7 @@
   },
   {
     "name": "Rebel Rebel",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "Please note, there is a net weight miscalculation on the box & component of the eye liner. This will be adjusted in the next production run. The correct net weight is .01oz/.33g.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Eyeliner_Rebel_Rebel_1024x1024.jpg?v=1441390551",
     "image_alt": "ILIA Pure Eyeliner | Rebel Rebel",
@@ -433,7 +433,7 @@
   },
   {
     "name": "Havana Affair",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "Please note, there is a net weight miscalculation on the box & component of the eye liner. This will be adjusted in the next production run. The correct net weight is .01oz/.33g.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Eyeliner_Havana_Affair_1024x1024.jpg?v=1441390920",
     "image_alt": "ILIA Pure Eyeliner | Havana Affair",
@@ -441,7 +441,7 @@
   },
   {
     "name": "My Generation",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "Please note, there is a net weight miscalculation on the box & component of the eye liner. This will be adjusted in the next production run. The correct net weight is .01oz/.33g.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Eyeliner_My_Generation_1024x1024.jpg?v=1441391073",
     "image_alt": "ILIA Pure Eyeliner | My Generation",
@@ -449,7 +449,7 @@
   },
   {
     "name": "Shadowplay",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "Please note, there is a net weight miscalculation on the box & component of the eye liner. This will be adjusted in the next production run. The correct net weight is .01oz/.33g.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Eyeliner_Shadowplay_1024x1024.jpg?v=1441390812",
     "image_alt": "ILIA Pure Eyeliner | Shadowplay",
@@ -457,7 +457,7 @@
   },
   {
     "name": "Nightclubbing",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "Please note, there is a net weight miscalculation on the box & component of the eye liner. This will be adjusted in the next production run. The correct net weight is .01oz/.33g.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Eyeliner_Nightclubbing_1024x1024.jpg?v=1441391011",
     "image_alt": "ILIA Pure Eyeliner | Nightclubbing",
@@ -465,7 +465,7 @@
   },
   {
     "name": "Sweet Jane",
-    "price": "$24.00",
+    "price": "24.00",
     "size": "Please note, there is a net weight miscalculation on the box & component of the eye liner. This will be adjusted in the next production run. The correct net weight is .01oz/.33g.",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Eyeliner_Sweet_Jane_1024x1024.jpg?v=1441390680",
     "image_alt": "ILIA Pure Eyeliner | Sweet Jane",
@@ -473,7 +473,7 @@
   },
   {
     "name": "Age Of Consent",
-    "price": "$28.00",
+    "price": "28.00",
     "size": ".04oz/1.3g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_EyeShadow_Age_Of_Consent_1024x1024.jpg?v=1441731618",
     "image_alt": "Silken Shadow Stick | Age Of Consent",
@@ -481,7 +481,7 @@
   },
   {
     "name": "And She Was",
-    "price": "$28.00",
+    "price": "28.00",
     "size": ".04oz/1.3g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_EyeShadow_And_She_Was_1024x1024.jpg?v=1441731133",
     "image_alt": "Silken Shadow Stick | And She Was ",
@@ -489,7 +489,7 @@
   },
   {
     "name": "In Between Days",
-    "price": "$28.00",
+    "price": "28.00",
     "size": ".04oz/1.3g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_EyeShadow_In_Between_Days_1024x1024.jpg?v=1441731707",
     "image_alt": "Silken Shadow Stick | In Between Days",
@@ -497,7 +497,7 @@
   },
   {
     "name": "Next To You",
-    "price": "$28.00",
+    "price": "28.00",
     "size": ".04oz/1.3g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_EyeShadow_Next_To_You_1024x1024.jpg?v=1441731309",
     "image_alt": "Silken Shadow Stick | Next To You",
@@ -505,7 +505,7 @@
   },
   {
     "name": "Take On Me",
-    "price": "$28.00",
+    "price": "28.00",
     "size": ".04oz/1.3g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_EyeShadow_Take_On_Me_1024x1024.jpg?v=1441732947",
     "image_alt": "Silken Shadow Stick | Take On Me",
@@ -513,7 +513,7 @@
   },
   {
     "name": "You Spin Me Round",
-    "price": "$28.00",
+    "price": "28.00",
     "size": ".04oz/1.3g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_EyeShadow_You_Spin_Me_Round_1024x1024.jpg?v=1441731901",
     "image_alt": "Silken Shadow Stick | You Spin Me Round",
@@ -521,7 +521,7 @@
   },
   {
     "name": "Nightfall",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.22oz / 6.5g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_new_nightfall_1024x1024.jpg?v=1380756992",
     "image_alt": "Nightfall",
@@ -529,7 +529,7 @@
   },
   {
     "name": "Shadow of a Doubt",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.22oz / 6.5g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_new_shadowofadoubt_1024x1024.jpg?v=1380756943",
     "image_alt": "Shadow of a Doubt",
@@ -537,7 +537,7 @@
   },
   {
     "name": "Macao",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.22oz / 6.5g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_new_macao_1024x1024.jpg?v=1380756972",
     "image_alt": "Macao",
@@ -545,7 +545,7 @@
   },
   {
     "name": "Asphalt Jungle",
-    "price": "$26.00",
+    "price": "26.00",
     "size": "0.22oz / 6.5g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_new_asphaltjungle_1024x1024.jpg?v=1380756888",
     "image_alt": "Asphalt Jungle",
@@ -553,7 +553,7 @@
   },
   {
     "name": "Fade Into You",
-    "price": "$34.00",
+    "price": "34.00",
     "size": "0.14oz / 4 g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIABEAUTY_FadeIntoYou_1024x1024.png?v=1456962953",
     "image_alt": "Fade Into You",
@@ -561,7 +561,7 @@
   },
   {
     "name": "Concealer Brush",
-    "price": "$30.00",
+    "price": "30.00",
     "size": "N/A",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_2_Concealer_Brush_1024x1024.jpg?v=1441907365",
     "image_alt": "ILIA Concealer Brush",
@@ -569,7 +569,7 @@
   },
   {
     "name": "Foundation Brush",
-    "price": "$44.00",
+    "price": "44.00",
     "size": "N/A",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_1_Foundation_Brush_1024x1024.jpg?v=1441907400",
     "image_alt": "ILIA Foundation Brush",
@@ -577,7 +577,7 @@
   },
   {
     "name": "Cassava | C1",
-    "price": "$30.00",
+    "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C1_Cassava_1024x1024.png?v=1411617603",
     "image_alt": "ILIA Vivid Concealer Smear in Cassava",
@@ -585,7 +585,7 @@
   },
   {
     "name": "Maca | C2",
-    "price": "$30.00",
+    "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C2_Maca_1024x1024.png?v=1411616586",
     "image_alt": "Maca | C2",
@@ -593,7 +593,7 @@
   },
   {
     "name": "Dandelion | C3",
-    "price": "$30.00",
+    "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C3_Dandelion_1024x1024.png?v=1411617011",
     "image_alt": "ILIA Vivid Concealer Smear in Dandelion",
@@ -601,7 +601,7 @@
   },
   {
     "name": "Ginseng | C4",
-    "price": "$30.00",
+    "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C4_Ginseng_1024x1024.png?v=1411617206",
     "image_alt": "ILIA Vivid Concealer Smear in Ginseng",
@@ -609,7 +609,7 @@
   },
   {
     "name": "Licorice | C5",
-    "price": "$30.00",
+    "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C5_Licorice_1024x1024.png?v=1411617337",
     "image_alt": "ILIA Vivid Concealer Smear in Licorice",
@@ -617,7 +617,7 @@
   },
   {
     "name": "Clove | C6",
-    "price": "$30.00",
+    "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C6_Clove_1024x1024.png?v=1411617458",
     "image_alt": "ILIA Vivid Concealer Smear in Clove",
@@ -625,7 +625,7 @@
   },
   {
     "name": "Los Roques T1 | SPF 20",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "1.9oz/ 50 ml",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_T1_LosRoques_1024x1024.png?v=1411617720",
     "image_alt": "ILIA Vivid Tinted Moisturizer Smear in Los Roques",
@@ -633,7 +633,7 @@
   },
   {
     "name": "Belle Mare T2 | SPF 20",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "1.9oz/ 50 ml",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_T2_BelleMare_1024x1024.png?v=1411618138",
     "image_alt": "ILIA Vivid Tinted Moisturizer Smear in Belle Mare",
@@ -641,7 +641,7 @@
   },
   {
     "name": "Hanalei T3 | SPF 20",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "1.9oz/ 50 ml",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_T3_Hanalei_1024x1024.png?v=1411618267",
     "image_alt": "ILIA Vivid Tinted Moisturizer Smear in Hanalei",
@@ -649,7 +649,7 @@
   },
   {
     "name": "Ramla Bay T4 | SPF 20",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "\n",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_T4_Ramla_Bay_1024x1024.png?v=1411618424",
     "image_alt": "ILIA Vivid Tinted Moisturizer Smear in Ramla Bay",
@@ -657,7 +657,7 @@
   },
   {
     "name": "Lovina T5 | SPF 20",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "1.9oz/ 50 ml",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_T5_Lovina_1024x1024.png?v=1411618560",
     "image_alt": "ILIA Vivid Tinted Moisturizer Smear in Lovina",
@@ -665,7 +665,7 @@
   },
   {
     "name": "Muriwai T6 | SPF 20",
-    "price": "$42.00",
+    "price": "42.00",
     "size": "\n",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_T6_Muriwai_1024x1024.png?v=1411618737",
     "image_alt": "ILIA Vivid Tinted Moisturizer Smear in Muriwai",
@@ -673,7 +673,7 @@
   },
   {
     "name": "Tularosa F1",
-    "price": "$44.00",
+    "price": "44.00",
     "size": "1oz/ 30g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F1_1024x1024.jpg?v=1441390045",
     "image_alt": "ILIA Vivid Foundation F1",
@@ -681,7 +681,7 @@
   },
   {
     "name": "Gobi F2",
-    "price": "$44.00",
+    "price": "44.00",
     "size": "1oz/ 30g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F2_1024x1024.jpg?v=1441390091",
     "image_alt": "ILIA Vivid Foundation Gobi | F2",
@@ -689,7 +689,7 @@
   },
   {
     "name": "Santorini F3",
-    "price": "$44.00",
+    "price": "44.00",
     "size": "1oz/ 30g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F3_a81c4faa-3752-46a9-87c2-f23f6b0e36e2_1024x1024.jpg?v=1441390126",
     "image_alt": "ILIA Vivid Foundation F3",
@@ -697,7 +697,7 @@
   },
   {
     "name": "Mojave F4",
-    "price": "$44.00",
+    "price": "44.00",
     "size": "1oz/ 30g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F5_6c0bfa52-1e1d-4767-9855-ba9bf59a2fb4_1024x1024.jpg?v=1441390108",
     "image_alt": "ILIA Vivid Foundation F4",
@@ -705,7 +705,7 @@
   },
   {
     "name": "Tanami F5",
-    "price": "$44.00",
+    "price": "44.00",
     "size": "1oz/ 30g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F4_e5b30359-6440-478e-9223-5efa14e60e4a_1024x1024.jpg?v=1441390137",
     "image_alt": "ILIA Vivid Foundation F4",
@@ -713,7 +713,7 @@
   },
   {
     "name": "Sandar F6",
-    "price": "$44.00",
+    "price": "44.00",
     "size": "1oz/ 30g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F6_7b137323-25d4-4c02-8e24-131adde3d813_1024x1024.jpg?v=1441389833",
     "image_alt": "ILIA Vivid Foundation F6",

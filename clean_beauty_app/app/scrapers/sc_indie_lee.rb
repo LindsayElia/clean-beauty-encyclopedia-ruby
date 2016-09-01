@@ -22,7 +22,8 @@ product_details = []
 product_links.each do |product_link|
 	product_body = Nokogiri::HTML(RestClient.get(product_link))
 	name = product_body.css(".product-name h1").text
-	price = product_body.css("span .price").text
+	price_string = product_body.css("span .price").text
+	price = price_string[1..-1]		# removes first character from string; removing dollar symbol
 	size = product_body.css(".weight").text.chop	# chop remove last character from string
 	image_url = product_body.css("#image")[0]["src"]
 	image_alt = product_body.css("#image")[0]["alt"]

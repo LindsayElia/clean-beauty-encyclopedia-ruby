@@ -31,7 +31,8 @@ product_details = []
 product_links.each do |product_link|
 	product_body = Nokogiri::HTML(RestClient.get(product_link))
 	name = product_body.css(".product_name").text
-	price = product_body.css("span .current_price").text.strip		# strip removes all extra spaces
+	price_string = product_body.css("span .current_price").text.strip		# strip removes all extra spaces
+	price = price_string[1..-1]		# removes first character from string; removing dollar symbol
 
 	# children gives us all children elements of the .description class element
 	# nokogiri gives me an array, with twice as many items in the array as elements I see on the page
