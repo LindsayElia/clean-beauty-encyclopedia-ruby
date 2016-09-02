@@ -56,10 +56,12 @@ ActiveRecord::Schema.define(version: 20160826214045) do
     t.decimal  "price"
     t.text     "currency"
     t.text     "size"
-    t.text     "ingredientsGrouping"
+    t.text     "ingredients_grouping"
+    t.text     "image_url"
+    t.text     "image_alt"
     t.integer  "brand_id"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
   end
 
   add_index "products", ["brand_id"], name: "index_products_on_brand_id", using: :btree

@@ -7,7 +7,9 @@ class CreateProducts < ActiveRecord::Migration
             t.decimal :price
             t.text :currency
             t.text :size
-            t.text :ingredientsGrouping
+            t.text :ingredients_grouping
+            t.text :image_url
+            t.text :image_alt
 
             # belongs to :brand
             t.references :brand, index: true
