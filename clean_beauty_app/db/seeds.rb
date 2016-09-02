@@ -1,21 +1,66 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 
-# DELETE THESE ONCE EVERYTHING IS WORKING - THESE DELETES ALL OF THE DATA IN THE DB
-# clear any existing data from these tables:
-# Brand.destroy_all
-# Product.destroy_all
-# Ingredient.destroy_all
+# DELETE THESE ONCE EVERYTHING IS WORKING - THESE DELETE ALL OF THE DATA IN THE DB
+# they'll only run on data that has not been associated with other tables,
+# so need to reset db anyway
+# Clear any existing data from these tables:
+Brand.destroy_all
+Product.destroy_all
+Ingredient.destroy_all
 
 
+
+# BRAND DATA #############################
+
+brand_one_love_organics = Brand.create(
+	name: "One Love Organics",
+	site_url: "http://shop.oneloveorganics.com/",
+	hq_country: "United States",
+	hq_region: "GA",
+	hq_postal_code: "31522",
+	year_founded: "2008",
+	is_vegan: false,
+	contains_vegan: true,
+	is_gluten_free: false
+	)
+
+brand_indie_lee = Brand.create(
+	name: "Indie Lee",
+	site_url: "http://indielee.com/shop/all-products",
+	hq_country: "United States",
+	hq_region: "NY",
+	hq_postal_code: "10590",
+	year_founded: "2010",
+	contains_vegan: true
+	)
+
+brand_ilia = Brand.create(
+	name: "Ilia",
+	site_url: "https://iliabeauty.com/collections/all",
+	hq_country: "United States",
+	hq_region: "CA",
+	year_founded: "2011",
+	is_vegan: false,
+	contains_vegan: true,
+	is_gluten_free: true
+	)
+
+
+# PRODUCT DATA #############################
+
+# read/import files containing data
 data_one_love_organics = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/one_love_organics.json'))
 data_indie_lee = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/indie_lee.json'))
 data_ilia = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/ilia.json'))
 
-count_one_love = 0
+
+# create products
+
+count_one_love_organics = 0
 data_one_love_organics.each do |item|
 	# using create! instead of create will tell us if there is a failure creating the record
-	Product.create!(
+	product_one_love_organics = Product.create!(
 		name: item["name"],
 		price: (item["price"]).to_f,	# convert string to float to retain decimal and be saved as a number data type
 		currency: "USD",
@@ -23,14 +68,16 @@ data_one_love_organics.each do |item|
 	    ingredientsGrouping: item["ingredients_grouping"]
 		)
 	# puts (item["price"]).to_f
-	count_one_love = count_one_love + 1
+	brand_one_love_organics.products << product_one_love_organics		# associate product with brand
+	count_one_love_organics = count_one_love_organics + 1
 end
 puts "count of one love items added to db:"
-puts count_one_love
+puts count_one_love_organics
+
 
 count_indie_lee = 0
 data_indie_lee.each do |item|
-	Product.create!(
+	product_indie_lee = Product.create!(
 		name: item["name"],
 		price: (item["price"]).to_f,
 		currency: "USD",
@@ -38,14 +85,16 @@ data_indie_lee.each do |item|
 	    ingredientsGrouping: item["ingredients_grouping"]
 		)
 	# puts (item["price"]).to_f
+	brand_indie_lee.products << product_indie_lee		# associate product with brand
 	count_indie_lee = count_indie_lee + 1
 end
 puts "count of indeie lee items added to db:"
 puts count_indie_lee
 
+
 count_ilia = 0
 data_ilia.each do |item|
-	Product.create!(
+	product_ilia = Product.create!(
 		name: item["name"],
 		price: (item["price"]).to_f,
 		currency: "USD",
@@ -53,108 +102,19 @@ data_ilia.each do |item|
 	    ingredientsGrouping: item["ingredients_grouping"]
 		)
 	# puts (item["price"]).to_f
+	brand_ilia.products << product_ilia		# associate product with brand
 	count_ilia = count_ilia + 1
 end
 puts "count of ilia items added to db:"
 puts count_ilia
 
-# # data for Brand table
-# brand1 = Brand.create(
-# 	name: "One Love Organics",
-# 	site_url: "http://shop.oneloveorganics.com/",
-# 	hq_country: "United States",
-# 	hq_region: "GA",
-# 	hq_postal_code: "31522",
-# 	year_founded: "2008",
-# 	is_vegan: false,
-# 	contains_vegan: true,
-# 	is_gluten_free: false
-# 	)
 
-# brand2 = Brand.create(
-# 	name: "Indie Lee",
-# 	site_url: "http://indielee.com/shop/all-products",
-# 	hq_country: "United States",
-# 	hq_region: "NY",
-# 	hq_postal_code: "10590",
-# 	year_founded: "2010",
-# 	is_vegan: false,
-# 	contains_vegan: true,
-# 	is_gluten_free: false
-# 	)
+# INGREDIENTS DATA #############################
 
-# brand3 = Brand.create(
-# 	name: "Ilia",
-# 	site_url: "https://iliabeauty.com/collections/all",
-# 	hq_country: "United States",
-# 	hq_region: "CA",
-# 	hq_postal_code: "--",
-# 	year_founded: "2011",
-# 	is_vegan: false,
-# 	contains_vegan: true,
-# 	is_gluten_free: false
-# 	)
 
-# # data for Product table
-# product1 = Product.create(
-# 	name: "Vitamin D",
-# 	category: "skincare, wash",
-# 	application_type: "face, liquid",
-# 	price: 39.00,
-# 	currency: "$",
-# 	size: " 2 oz.",
-#     ingredientsGrouping: "aloe, alpine rose extract, glycerin, safflower oil, aqua, rice extract, mushroom extract, caprylic/capric triglyceride, rose extract, dehydroacetic acid, benzyl alcohol"
-# 	)
 
-# product2 = Product.create(
-# 	name: "Chia Whip",
-# 	category: "skincare, moisturize",
-# 	application_type: "face, cream",
-# 	price: 32.00,
-# 	currency: "$",
-# 	size: " 5 FL OZ",
-#     ingredientsGrouping: "aloe, coco glucoside, caprylyl/capryl glucoside, xylitylglucoside, anhydroxylitol, xylitolorganic, lactic acid, chia seed supercritical extract, sorbitan caprylate (and) propanediol (and) benzoic acid, rose extract, vanilla planifolia fruit extract, cucumis sativus (cucumber) fruit extract, coffee seed extract, coconut fruit extract"
-# 	)
 
-# product3 = Product.create(
-# 	name: "Brightening Cleanser",
-# 	category: "skincare, wash",
-# 	application_type: "face, liquid",
-# 	price: 32.00,
-# 	currency: "$",
-# 	size: "4oz",
-# 	ingredientsGrouping: "Purified Water, Decyl Glucoside (Veg. Oils & Sugar), Disodium Coco-Glucoside Citrate, Coco Glucoside Oleaste (Coconut and Sunflower Oil), Hydrolyzed Wheat Protein*, Xanthan Gum, Fragaria Chiloensis Seed Oil (Strawberry), Lycopene, Phenoxyethanol, Ethylhexylglycerin"
-# 	)
 
-# product4 = Product.create(
-# 	name: "Squalane Facial Cream",
-# 	category: "skincare, moisturize",
-# 	application_type: "face, cream",
-# 	price: 70.00,
-# 	currency: "$",
-# 	size: "1oz",
-# 	ingredientsGrouping: "Aqua, Simmondsia Chinensis, Persea Gratissima, Aloe Barbadensis, Emulsifying Wax, Vegetable Glycerin, Elaeis Guineensis, Palm Stearic Acid, Squalane (olive derived), Hyaluronic Acid, Tocopheryl Acetate, Rosa Rubiginosa Seed Oil, Ascorbyl Palmitate, Dl-Panthenol, Allantoin, Xanthan Gum, Triticum Vulgare, Daucus Carota Oil, Rosmarinus Officinalis Leaf Extract, Phenoxyethanol"
-# 	)
-
-# product5 = Product.create(
-# 	name: "Tularosa F1",
-# 	category: "makeup, face",
-# 	application_type: "face, liquid",
-# 	price: 44.00,
-# 	currency: "$",
-# 	size: "1.7oz",
-# 	ingredientsGrouping: "water, glycerin, rosewater"
-# 	)
-
-# product6 = Product.create(
-# 	name: "Age Of Consent",
-# 	category: "makeup, face",
-# 	application_type: "face, powder",
-# 	price: 28.00,
-# 	currency: "$",
-# 	size: ".5oz",
-# 	ingredientsGrouping: "rosewater"
-# 	)
 
 # # data for Ingredient table
 # ingredient1 = Ingredient.create(
