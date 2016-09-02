@@ -4,38 +4,47 @@
 
 # BRAND DATA #############################
 
-brand_one_love_organics = Brand.create(
-	name: "One Love Organics",
-	site_url: "http://shop.oneloveorganics.com/",
-	hq_country: "United States",
-	hq_region: "GA",
-	hq_postal_code: "31522",
-	year_founded: "2008",
-	is_vegan: false,
-	contains_vegan: true,
-	is_gluten_free: false
-	)
+# skip if brand exists in the database already, validating for a unique name
+unless Product.find_by( name: "One Love Organics")
+	brand_one_love_organics = Brand.create(
+		name: "One Love Organics",
+		site_url: "http://shop.oneloveorganics.com/",
+		hq_country: "United States",
+		hq_region: "GA",
+		hq_postal_code: "31522",
+		year_founded: "2008",
+		is_vegan: false,
+		contains_vegan: true,
+		is_gluten_free: false
+		)
+end
 
-brand_indie_lee = Brand.create(
-	name: "Indie Lee",
-	site_url: "http://indielee.com/shop/all-products",
-	hq_country: "United States",
-	hq_region: "NY",
-	hq_postal_code: "10590",
-	year_founded: "2010",
-	contains_vegan: true
-	)
+# skip if brand exists in the database already, validating for a unique name
+unless Product.find_by( name: "Indie Lee")
+	brand_indie_lee = Brand.create(
+		name: "Indie Lee",
+		site_url: "http://indielee.com/shop/all-products",
+		hq_country: "United States",
+		hq_region: "NY",
+		hq_postal_code: "10590",
+		year_founded: "2010",
+		contains_vegan: true
+		)
+end
 
-brand_ilia = Brand.create(
-	name: "Ilia",
-	site_url: "https://iliabeauty.com/collections/all",
-	hq_country: "United States",
-	hq_region: "CA",
-	year_founded: "2011",
-	is_vegan: false,
-	contains_vegan: true,
-	is_gluten_free: true
-	)
+# skip if brand exists in the database already, validating for a unique name
+unless Product.find_by( name: "Ilia")
+	brand_ilia = Brand.create(
+		name: "Ilia",
+		site_url: "https://iliabeauty.com/collections/all",
+		hq_country: "United States",
+		hq_region: "CA",
+		year_founded: "2011",
+		is_vegan: false,
+		contains_vegan: true,
+		is_gluten_free: true
+		)
+end
 
 
 # PRODUCT DATA #############################
