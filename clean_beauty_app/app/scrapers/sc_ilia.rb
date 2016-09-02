@@ -61,7 +61,7 @@ product_links.each do |product_link|
 		size: size,
 		image_url: image_url,
 		image_alt: image_alt,
-		ingreients_grouping: ingredients_grouping
+		ingredients_grouping: ingredients_grouping
 	)
 end
 
