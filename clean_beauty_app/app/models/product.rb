@@ -1,7 +1,8 @@
 class Product < ActiveRecord::Base
 
 	validates :name,
-		presence: true
+		presence: true,
+		uniqueness: true
 
 	validates :price,
 		numericality: true
