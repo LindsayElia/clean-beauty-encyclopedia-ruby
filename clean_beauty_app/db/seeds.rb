@@ -1,15 +1,6 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 
-# DELETE THESE ONCE EVERYTHING IS WORKING - THESE DELETE ALL OF THE DATA IN THE DB
-# they'll only run on data that has not been associated with other tables,
-# so need to reset db anyway
-# Clear any existing data from these tables:
-Brand.destroy_all
-Product.destroy_all
-Ingredient.destroy_all
-
-
 
 # BRAND DATA #############################
 
@@ -59,19 +50,22 @@ data_ilia = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/ilia.jso
 
 count_one_love_organics = 0
 data_one_love_organics.each do |item|
-	# using create! instead of create will tell us if there is a failure creating the record
-	product_one_love_organics = Product.create!(
-		name: item["name"],
-		price: (item["price"]).to_f,	# convert string to float to retain decimal and be saved as a number data type
-		currency: "USD",
-		size: item["size"],
-	    ingredients_grouping: item["ingredients_grouping"],
-	    image_url: item["image_url"],
-	    image_alt: item["image_alt"]
-		)
-	# puts (item["price"]).to_f
-	brand_one_love_organics.products << product_one_love_organics		# associate product with brand
-	count_one_love_organics = count_one_love_organics + 1
+	# skip item if product exists in the database already, validating for a unique name
+	unless Product.find_by( name: item["name"])
+		# using create! instead of create will tell us if there is a failure creating the record
+		product_one_love_organics = Product.create!(
+			name: item["name"],
+			price: (item["price"]).to_f,	# convert string to float to retain decimal and be saved as a number data type
+			currency: "USD",
+			size: item["size"],
+		    ingredients_grouping: item["ingredients_grouping"],
+		    image_url: item["image_url"],
+		    image_alt: item["image_alt"]
+			)
+		# puts (item["price"]).to_f
+		brand_one_love_organics.products << product_one_love_organics		# associate product with brand
+		count_one_love_organics = count_one_love_organics + 1
+	end
 end
 puts "count of one love items added to db:"
 puts count_one_love_organics
@@ -79,18 +73,20 @@ puts count_one_love_organics
 
 count_indie_lee = 0
 data_indie_lee.each do |item|
-	product_indie_lee = Product.create!(
-		name: item["name"],
-		price: (item["price"]).to_f,
-		currency: "USD",
-		size: item["size"],
-	    ingredients_grouping: item["ingredients_grouping"],
-	    image_url: item["image_url"],
-	    image_alt: item["image_alt"]
-		)
-	# puts (item["price"]).to_f
-	brand_indie_lee.products << product_indie_lee		# associate product with brand
-	count_indie_lee = count_indie_lee + 1
+	unless Product.find_by( name: item["name"])
+		product_indie_lee = Product.create!(
+			name: item["name"],
+			price: (item["price"]).to_f,
+			currency: "USD",
+			size: item["size"],
+		    ingredients_grouping: item["ingredients_grouping"],
+		    image_url: item["image_url"],
+		    image_alt: item["image_alt"]
+			)
+		# puts (item["price"]).to_f
+		brand_indie_lee.products << product_indie_lee		# associate product with brand
+		count_indie_lee = count_indie_lee + 1
+	end
 end
 puts "count of indeie lee items added to db:"
 puts count_indie_lee
@@ -98,27 +94,26 @@ puts count_indie_lee
 
 count_ilia = 0
 data_ilia.each do |item|
-	product_ilia = Product.create!(
-		name: item["name"],
-		price: (item["price"]).to_f,
-		currency: "USD",
-		size: item["size"],
-	    ingredients_grouping: item["ingredients_grouping"],
-	    image_url: item["image_url"],
-	    image_alt: item["image_alt"]
-		)
-	# puts (item["price"]).to_f
-	brand_ilia.products << product_ilia		# associate product with brand
-	count_ilia = count_ilia + 1
+	unless Product.find_by( name: item["name"])
+		product_ilia = Product.create!(
+			name: item["name"],
+			price: (item["price"]).to_f,
+			currency: "USD",
+			size: item["size"],
+		    ingredients_grouping: item["ingredients_grouping"],
+		    image_url: item["image_url"],
+		    image_alt: item["image_alt"]
+			)
+		# puts (item["price"]).to_f
+		brand_ilia.products << product_ilia		# associate product with brand
+		count_ilia = count_ilia + 1
+	end
 end
 puts "count of ilia items added to db:"
 puts count_ilia
 
 
 # INGREDIENTS DATA #############################
-
-
-
 
 
 
