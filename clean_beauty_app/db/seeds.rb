@@ -65,7 +65,9 @@ data_one_love_organics.each do |item|
 		price: (item["price"]).to_f,	# convert string to float to retain decimal and be saved as a number data type
 		currency: "USD",
 		size: item["size"],
-	    ingredientsGrouping: item["ingredients_grouping"]
+	    ingredients_grouping: item["ingredients_grouping"],
+	    image_url: item["image_url"],
+	    image_alt: item["image_alt"]
 		)
 	# puts (item["price"]).to_f
 	brand_one_love_organics.products << product_one_love_organics		# associate product with brand
@@ -82,7 +84,9 @@ data_indie_lee.each do |item|
 		price: (item["price"]).to_f,
 		currency: "USD",
 		size: item["size"],
-	    ingredientsGrouping: item["ingredients_grouping"]
+	    ingredients_grouping: item["ingredients_grouping"],
+	    image_url: item["image_url"],
+	    image_alt: item["image_alt"]
 		)
 	# puts (item["price"]).to_f
 	brand_indie_lee.products << product_indie_lee		# associate product with brand
@@ -99,7 +103,9 @@ data_ilia.each do |item|
 		price: (item["price"]).to_f,
 		currency: "USD",
 		size: item["size"],
-	    ingredientsGrouping: item["ingredients_grouping"]
+	    ingredients_grouping: item["ingredients_grouping"],
+	    image_url: item["image_url"],
+	    image_alt: item["image_alt"]
 		)
 	# puts (item["price"]).to_f
 	brand_ilia.products << product_ilia		# associate product with brand
