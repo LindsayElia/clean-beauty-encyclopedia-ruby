@@ -62,7 +62,6 @@ data_one_love_organics.each do |item|
 		    image_url: item["image_url"],
 		    image_alt: item["image_alt"]
 			)
-		# puts (item["price"]).to_f
 		brand_one_love_organics.products << product_one_love_organics		# associate product with brand
 		count_one_love_organics = count_one_love_organics + 1
 	end
@@ -83,8 +82,7 @@ data_indie_lee.each do |item|
 		    image_url: item["image_url"],
 		    image_alt: item["image_alt"]
 			)
-		# puts (item["price"]).to_f
-		brand_indie_lee.products << product_indie_lee		# associate product with brand
+		brand_indie_lee.products << product_indie_lee
 		count_indie_lee = count_indie_lee + 1
 	end
 end
@@ -104,8 +102,7 @@ data_ilia.each do |item|
 		    image_url: item["image_url"],
 		    image_alt: item["image_alt"]
 			)
-		# puts (item["price"]).to_f
-		brand_ilia.products << product_ilia		# associate product with brand
+		brand_ilia.products << product_ilia
 		count_ilia = count_ilia + 1
 	end
 end
