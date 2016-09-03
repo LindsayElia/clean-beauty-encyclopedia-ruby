@@ -73,6 +73,37 @@ data_one_love_organics.each do |item|
 			)
 		brand_one_love_organics.products << product_one_love_organics		# associate product with brand
 		count_one_love_organics = count_one_love_organics + 1
+
+
+## this section below won't run if the product already exists in the db, so I probably
+## want to re-do line 62, or pull this out??
+
+		ingredients_string = item["ingredients_grouping"]
+		ingredients_array = ingredients_string.split(/\s*,\s*/)
+
+		ingredients_array.each do |array_item|
+			# define database item
+			ingredient = Ingredient.new(
+				name: array_item
+				)
+			# find item in our db by name
+			if Ingredient.exists?(name: array_item)
+				# if there is a match, associate it
+
+				# product_one_love_organics.ingredients << ingredient		# this line of code threw a Validation Failure error,
+																			# so I changed it to this:
+				ingredient.products << product_one_love_organics
+				# find by name and then associate the two?
+				puts "associating"
+
+			else
+				# if no match, create it and associate it
+				ingredient.save
+				ingredient.products << product_one_love_organics			# I changed this line to match line 95
+				puts "creating and associating"
+			end
+		end
+
 	end
 end
 puts "count of one love items added to db:"
@@ -119,11 +150,11 @@ puts "count of ilia items added to db:"
 puts count_ilia
 
 
+
+
 # INGREDIENTS DATA #############################
 
 
-
-# # data for Ingredient table
 # ingredient1 = Ingredient.create(
 # 	name: "water",
 # 	alternate_names: "aqua",
