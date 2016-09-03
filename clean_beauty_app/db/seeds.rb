@@ -80,6 +80,8 @@ data_one_love_organics.each do |item|
 
 		ingredients_string = item["ingredients_grouping"]
 		ingredients_array = ingredients_string.split(/\s*,\s*/)
+		puts "----------------------"
+		# puts ingredients_array
 
 		ingredients_array.each do |array_item|
 			# define database item
@@ -89,7 +91,6 @@ data_one_love_organics.each do |item|
 			# find item in our db by name
 			if Ingredient.exists?(name: array_item)
 				# if there is a match, associate it
-
 				# product_one_love_organics.ingredients << ingredient		# this line of code threw a Validation Failure error,
 																			# so I changed it to this:
 				ingredient.products << product_one_love_organics
@@ -99,7 +100,7 @@ data_one_love_organics.each do |item|
 			else
 				# if no match, create it and associate it
 				ingredient.save
-				ingredient.products << product_one_love_organics			# I changed this line to match line 95
+				ingredient.products << product_one_love_organics			# I changed this line to match line 96, from same as line 94
 				puts "creating and associating"
 			end
 		end
@@ -148,8 +149,6 @@ data_ilia.each do |item|
 end
 puts "count of ilia items added to db:"
 puts count_ilia
-
-
 
 
 # INGREDIENTS DATA #############################
