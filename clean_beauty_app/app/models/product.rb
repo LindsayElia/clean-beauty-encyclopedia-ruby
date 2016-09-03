@@ -9,7 +9,7 @@ class Product < ActiveRecord::Base
 
 	belongs_to :brand
 
-	has_many :product_ingredient
-	has_many :ingredients, through: :product_ingredient
+	has_many :product_ingredients
+	has_many :ingredients, through: :product_ingredients
 
 end
