@@ -19,7 +19,6 @@ unless Product.find_by(name: "One Love Organics")
 		)
 end
 
-# skip if brand exists in the database already, validating for a unique name
 unless Product.find_by(name: "Indie Lee")
 	brand_indie_lee = Brand.create(
 		name: "Indie Lee",
@@ -32,7 +31,6 @@ unless Product.find_by(name: "Indie Lee")
 		)
 end
 
-# skip if brand exists in the database already, validating for a unique name
 unless Product.find_by(name: "Ilia")
 	brand_ilia = Brand.create(
 		name: "Ilia",
@@ -55,8 +53,7 @@ data_indie_lee = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/ind
 data_ilia = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/ilia.json'))
 
 
-# create products
-
+# create products and ingredients, associate both
 count_one_love_organics = 0
 data_one_love_organics.each do |item|
 	# skip item if product exists in the database already, validating for a unique name
@@ -106,6 +103,19 @@ data_indie_lee.each do |item|
 			)
 		brand_indie_lee.products << product_indie_lee
 		count_indie_lee = count_indie_lee + 1
+
+		ingredients_string = item["ingredients_grouping"]
+		# puts ingredients_string
+		ingredients_array = ingredients_string.split(/\s*,\s*/)
+		# puts ingredients_array
+
+		ingredients_array.each do |array_item|
+			# look for ingredient in db, and create if it does not exist
+			ingredient = Ingredient.find_or_create_by!(name: array_item)
+			# associate ingredient & product
+			ingredient.products << product_indie_lee
+		end
+
 	end
 end
 puts "count of indeie lee items added to db:"
@@ -126,62 +136,21 @@ data_ilia.each do |item|
 			)
 		brand_ilia.products << product_ilia
 		count_ilia = count_ilia + 1
+
+		ingredients_string = item["ingredients_grouping"]
+		puts ingredients_string
+		ingredients_array = ingredients_string.split(/\s*,\s*/)
+		puts ingredients_array
+
+		ingredients_array.each do |array_item|
+			# look for ingredient in db, and create if it does not exist
+			ingredient = Ingredient.find_or_create_by!(name: array_item)
+			# associate ingredient & product
+			ingredient.products << product_ilia
+		end
+
 	end
 end
 puts "count of ilia items added to db:"
 puts count_ilia
-
-
-# INGREDIENTS DATA #############################
-
-
-# ingredient1 = Ingredient.create(
-# 	name: "water",
-# 	alternate_names: "aqua",
-# 	is_animal_derived: false,
-# 	is_organic: false
-# 	)
-
-# ingredient2 = Ingredient.create(
-# 	name: "aloe",
-# 	alternate_names: "Aloe Barbadensis",
-# 	is_animal_derived: false,
-# 	is_organic: false
-# 	)
-
-# ingredient3 = Ingredient.create(
-# 	name: "sugar",
-# 	alternate_names: "--",
-# 	is_animal_derived: false,
-# 	is_organic: false
-# 	)
-
-# ingredient4 = Ingredient.create(
-# 	name: "Vegetable Glycerin",
-# 	alternate_names: "glycerin",
-# 	is_animal_derived: false,
-# 	is_organic: false
-# 	)
-
-# # Associate Brand and Product data
-# brand1.products << product1
-# brand1.products << product2
-
-# brand2.products << product3
-# brand2.products << product4
-
-# brand3.products << product5
-# brand3.products << product6
-
-# # Associate Product and Ingredient data
-# product1.ingredients << ingredient1
-# product1.ingredients << ingredient2
-# product1.ingredients << ingredient3
-
-# product2.ingredients << ingredient1
-# product2.ingredients << ingredient4
-
-# product3.ingredients << ingredient3
-
-
 
