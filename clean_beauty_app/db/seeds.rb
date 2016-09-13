@@ -5,7 +5,7 @@
 # BRAND DATA #############################
 
 # skip if brand exists in the database already, validating for a unique name
-unless Product.find_by( name: "One Love Organics")
+unless Product.find_by(name: "One Love Organics")
 	brand_one_love_organics = Brand.create(
 		name: "One Love Organics",
 		site_url: "http://shop.oneloveorganics.com/",
@@ -20,7 +20,7 @@ unless Product.find_by( name: "One Love Organics")
 end
 
 # skip if brand exists in the database already, validating for a unique name
-unless Product.find_by( name: "Indie Lee")
+unless Product.find_by(name: "Indie Lee")
 	brand_indie_lee = Brand.create(
 		name: "Indie Lee",
 		site_url: "http://indielee.com/shop/all-products",
@@ -33,7 +33,7 @@ unless Product.find_by( name: "Indie Lee")
 end
 
 # skip if brand exists in the database already, validating for a unique name
-unless Product.find_by( name: "Ilia")
+unless Product.find_by(name: "Ilia")
 	brand_ilia = Brand.create(
 		name: "Ilia",
 		site_url: "https://iliabeauty.com/collections/all",
@@ -60,7 +60,7 @@ data_ilia = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/ilia.jso
 count_one_love_organics = 0
 data_one_love_organics.each do |item|
 	# skip item if product exists in the database already, validating for a unique name
-	unless Product.find_by( name: item["name"])
+	unless Product.find_by(name: item["name"])
 		# using create! instead of create will tell us if there is a failure creating the record
 		product_one_love_organics = Product.create!(
 			name: item["name"],
@@ -74,35 +74,16 @@ data_one_love_organics.each do |item|
 		brand_one_love_organics.products << product_one_love_organics		# associate product with brand
 		count_one_love_organics = count_one_love_organics + 1
 
-
-## this section below won't run if the product already exists in the db, so I probably
-## want to re-do line 62, or pull this out??
-
 		ingredients_string = item["ingredients_grouping"]
+		# puts ingredients_string
 		ingredients_array = ingredients_string.split(/\s*,\s*/)
-		puts "----------------------"
 		# puts ingredients_array
 
 		ingredients_array.each do |array_item|
-			# define database item
-			ingredient = Ingredient.new(
-				name: array_item
-				)
-			# find item in our db by name
-			if Ingredient.exists?(name: array_item)
-				# if there is a match, associate it
-				# product_one_love_organics.ingredients << ingredient		# this line of code threw a Validation Failure error,
-																			# so I changed it to this:
-				ingredient.products << product_one_love_organics
-				# find by name and then associate the two?
-				puts "associating"
-
-			else
-				# if no match, create it and associate it
-				ingredient.save
-				ingredient.products << product_one_love_organics			# I changed this line to match line 96, from same as line 94
-				puts "creating and associating"
-			end
+			# look for ingredient in db, and create if it does not exist
+			ingredient = Ingredient.find_or_create_by!(name: array_item)
+			# associate ingredient & product
+			ingredient.products << product_one_love_organics
 		end
 
 	end
