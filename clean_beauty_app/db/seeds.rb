@@ -138,9 +138,9 @@ data_ilia.each do |item|
 		count_ilia = count_ilia + 1
 
 		ingredients_string = item["ingredients_grouping"]
-		puts ingredients_string
+		# puts ingredients_string
 		ingredients_array = ingredients_string.split(/\s*,\s*/)
-		puts ingredients_array
+		# puts ingredients_array
 
 		ingredients_array.each do |array_item|
 			# look for ingredient in db, and create if it does not exist
