@@ -563,20 +563,20 @@
     "name": "Concealer Brush",
     "price": "30.00",
     "size": "N/A",
-    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_2_Concealer_Brush_1024x1024.jpg?v=1441907365",
-    "image_alt": "ILIA Concealer Brush",
-    "ingredients_grouping": "Designed in the iconic ILIA finish, the Concealer Brush features soft bristles made of high grade synthetic Taklon, which are cruelty free and easy to clean."
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Concealer_Brush_1024x1024.jpg?v=1473296087",
+    "image_alt": "Concealer Brush",
+    "ingredients_grouping": "Designed in the iconic ILIA finish, the Concealer Brush features soft bristles that are made with high-grade, synthetic Taklon, an easy-to-clean, cruelty-free material. Wash brush with mild soap and warm water."
   },
   {
     "name": "Foundation Brush",
     "price": "44.00",
     "size": "N/A",
-    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_1_Foundation_Brush_1024x1024.jpg?v=1441907400",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Foundation_Brush_1024x1024.jpg?v=1473295180",
     "image_alt": "ILIA Foundation Brush",
-    "ingredients_grouping": "Designed in the iconic ILIA finish, the Foundation Brush features soft bristles made of high grade synthetic Taklon, which are cruelty free and easy to clean."
+    "ingredients_grouping": "Designed in the iconic ILIA finish, the Foundation Brush features soft bristles that are made with high-grade, synthetic Taklon, an easy-to-clean, cruelty-free material. Wash brush with mild soap and warm water."
   },
   {
-    "name": "Cassava | C1",
+    "name": "Cassava C1",
     "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C1_Cassava_1024x1024.png?v=1411617603",
@@ -584,15 +584,15 @@
     "ingredients_grouping": "Aloe Barbadensis Leaf Juice, Water (Agua), Glycerin, Sesamum Indicum (Sesame) Seed Oil*, Linum Usitatissimum (Linseed) Flax Seed*, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Behenyl Olivate, Helianthus Annuus (Sunflower) Seed Oil*, Camellia Sinensis (Green Tea) Extract*, Arnica Montana Flower Oil*, Chondrus Crispus Extract, Chamomilla Recutita (Matricaria) Flower*, Sodium Hyaluronate, Tocopherol, Allantoin, Ethylhexylglycerin, Phenethyl Alcohol. May Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxide (CI77491, CI77492, CI77499). *Certified Organic Ingredients. Ingrédients Certifiés Biologiques. This ingredient list is subject to change, it is the most up-to-date ingredient list and may differ from product packaging."
   },
   {
-    "name": "Maca | C2",
+    "name": "Maca C2",
     "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C2_Maca_1024x1024.png?v=1411616586",
-    "image_alt": "Maca | C2",
+    "image_alt": "Maca C2",
     "ingredients_grouping": "Aloe Barbadensis Leaf Juice, Water (Agua), Glycerin, Sesamum Indicum (Sesame) Seed Oil*, Linum Usitatissimum (Linseed) Flax Seed*, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Behenyl Olivate, Helianthus Annuus (Sunflower) Seed Oil*, Camellia Sinensis (Green Tea) Extract*, Arnica Montana Flower Oil*, Chondrus Crispus Extract, Chamomilla Recutita (Matricaria) Flower*, Sodium Hyaluronate, Tocopherol, Allantoin, Ethylhexylglycerin, Phenethyl Alcohol. May Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxide (CI77491, CI77492, CI77499). *Certified Organic Ingredients. Ingrédients Certifiés Biologiques. This ingredient list is subject to change, it is the most up-to-date ingredient list and may differ from product packaging."
   },
   {
-    "name": "Dandelion | C3",
+    "name": "Dandelion C3",
     "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C3_Dandelion_1024x1024.png?v=1411617011",
@@ -600,7 +600,7 @@
     "ingredients_grouping": "Aloe Barbadensis Leaf Juice, Water (Agua), Glycerin, Sesamum Indicum (Sesame) Seed Oil*, Linum Usitatissimum (Linseed) Flax Seed*, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Behenyl Olivate, Helianthus Annuus (Sunflower) Seed Oil*, Camellia Sinensis (Green Tea) Extract*, Arnica Montana Flower Oil*, Chondrus Crispus Extract, Chamomilla Recutita (Matricaria) Flower*, Sodium Hyaluronate, Tocopherol, Allantoin, Ethylhexylglycerin, Phenethyl Alcohol. May Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxide (CI77491, CI77492, CI77499). *Certified Organic Ingredients. Ingrédients Certifiés Biologiques. This ingredient list is subject to change, it is the most up-to-date ingredient list and may differ from product packaging."
   },
   {
-    "name": "Ginseng | C4",
+    "name": "Ginseng C4",
     "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C4_Ginseng_1024x1024.png?v=1411617206",
@@ -608,7 +608,7 @@
     "ingredients_grouping": "Aloe Barbadensis Leaf Juice, Water (Agua), Glycerin, Sesamum Indicum (Sesame) Seed Oil*, Linum Usitatissimum (Linseed) Flax Seed*, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Behenyl Olivate, Helianthus Annuus (Sunflower) Seed Oil*, Camellia Sinensis (Green Tea) Extract*, Arnica Montana Flower Oil*, Chondrus Crispus Extract, Chamomilla Recutita (Matricaria) Flower*, Sodium Hyaluronate, Tocopherol, Allantoin, Ethylhexylglycerin, Phenethyl Alcohol. May Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxide (CI77491, CI77492, CI77499). *Certified Organic Ingredients. Ingrédients Certifiés Biologiques. This ingredient list is subject to change, it is the most up-to-date ingredient list and may differ from product packaging."
   },
   {
-    "name": "Licorice | C5",
+    "name": "Licorice C5",
     "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C5_Licorice_1024x1024.png?v=1411617337",
@@ -616,7 +616,7 @@
     "ingredients_grouping": "Aloe Barbadensis Leaf Juice, Water (Agua), Glycerin, Sesamum Indicum (Sesame) Seed Oil*, Linum Usitatissimum (Linseed) Flax Seed*, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Behenyl Olivate, Helianthus Annuus (Sunflower) Seed Oil*, Camellia Sinensis (Green Tea) Extract*, Arnica Montana Flower Oil*, Chondrus Crispus Extract, Chamomilla Recutita (Matricaria) Flower*, Sodium Hyaluronate, Tocopherol, Allantoin, Ethylhexylglycerin, Phenethyl Alcohol. May Contain: Mica, Titanium Dioxide (CI 77891), Iron Oxide (CI77491, CI77492, CI77499). *Certified Organic Ingredients. Ingrédients Certifiés Biologiques. This ingredient list is subject to change, it is the most up-to-date ingredient list and may differ from product packaging."
   },
   {
-    "name": "Clove | C6",
+    "name": "Clove C6",
     "price": "30.00",
     "size": "0.5oz/ 15g",
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_C6_Clove_1024x1024.png?v=1411617458",
@@ -683,8 +683,8 @@
     "name": "Gobi F2",
     "price": "44.00",
     "size": "1oz/ 30g",
-    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F2_1024x1024.jpg?v=1441390091",
-    "image_alt": "ILIA Vivid Foundation Gobi | F2",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA-Gobi-F2_1024x1024.jpg?v=1473350347",
+    "image_alt": "ILIA Foundation Gobi F2",
     "ingredients_grouping": "Water (Aqua), Glycerin, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Helianthus Annuus (Sunflower) Seed Oil*, Rosa Canina (Rosehip) Seed Oil*, Behenyl Olivate, Pistacia Lentiscus Gum/Pistacia Lentiscus (Mastic) Gum, Lecithin, Caprylic/Capric Triglyceride, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Lavandula Angustifolia (Lavender) Flower/Leaf/Steam Extract, Eugenia Caryophyllus (Clove) Flower Extract, Vitis Vinifera (Grape) Fruit Extract, Citrus Aurantium Dulcis (Orange) Peel Wax, Vaccinium Macrocarpon (Cranberry) Fruit, Sodium Hyaluronate, Tocopherol, Allantoin, Phenethyl Alcohol, Ethylhexylglycerin. May contain: Mica, Titanium Dioxide CI77891, Red Oxide CI77491, Black Oxide CI77499, Yellow Oxide CI77492. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
   },
   {
@@ -718,5 +718,85 @@
     "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Vivid_Foundation_F6_7b137323-25d4-4c02-8e24-131adde3d813_1024x1024.jpg?v=1441389833",
     "image_alt": "ILIA Vivid Foundation F6",
     "ingredients_grouping": "Water (Aqua), Glycerin, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Helianthus Annuus (Sunflower) Seed Oil*, Rosa Canina (Rosehip) Seed Oil*, Behenyl Olivate, Pistacia Lentiscus Gum/Pistacia Lentiscus (Mastic) Gum, Lecithin, Caprylic/Capric Triglyceride, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Lavandula Angustifolia (Lavender) Flower/Leaf/Steam Extract, Eugenia Caryophyllus (Clove) Flower Extract, Vitis Vinifera (Grape) Fruit Extract, Citrus Aurantium Dulcis (Orange) Peel Wax, Vaccinium Macrocarpon (Cranberry) Fruit, Sodium Hyaluronate, Tocopherol, Allantoin, Phenethyl Alcohol, Ethylhexylglycerin. May contain: Mica, Titanium Dioxide CI77891, Red Oxide CI77491, Black Oxide CI77499, Yellow Oxide CI77492. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
+  },
+  {
+    "name": "Lucy's Party",
+    "price": null,
+    "size": "0.14oz / 4g",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Lucys_Party_1024x1024.jpg?v=1473297474",
+    "image_alt": "Lucy's Party",
+    "ingredients_grouping": "Ricinus Communis (Castor) Seed Oil*, Sesamum Indicum (Sesame) Seed Oil*, Helianthus Annuus (Sunflower) Seed Oil*, Beeswax (Cera Alba)*, Triisostearyl Citrate, Euphorbia Cerifera (Candelilla) Wax, Theobroma Cacao (Cocoa) Seed Butter*, Zea Mays (Corn) Starch*, Linum Usitatissimum (Linseed) Flax Seed*, Olea Europaea (Olive) Fruit Oil*, Rosa Canina (Rosehip) Seed Oil*, Salvia Officinalis (Sage) Leaf*, Tocopherol. May contain: Mica, Titanium Dioxide CI77891, Black Oxide CI77499, Yellow Oxide CI77492, Red Oxide CI77491, Red 7 CI15850, Red 28 CI45410, Yellow 5 CI19140. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
+  },
+  {
+    "name": "Finishing Powder Brush",
+    "price": "44.00",
+    "size": "N/A",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Powder_Brush_1024x1024.jpg?v=1473295965",
+    "image_alt": "Finishing Powder Brush",
+    "ingredients_grouping": "Designed in the iconic ILIA finish, this brush’s soft bristles are made with high-grade, synthetic Taklon, an easy-to-clean, cruelty-free material. Wash brush with mild soap and warm water."
+  },
+  {
+    "name": "Perfecting Buff Brush",
+    "price": "44.00",
+    "size": "N/A",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Buff_Brush_1024x1024.jpg?v=1473296241",
+    "image_alt": "Perfecting Buff Brush",
+    "ingredients_grouping": "Designed in the iconic ILIA finish, this brush’s soft bristles are made with high-grade, synthetic Taklon, an easy-to-clean, cruelty-free material. Wash brush with mild soap and warm water."
+  },
+  {
+    "name": "Defining Lip Brush",
+    "price": "28.00",
+    "size": "N/A",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Lip_Brush_Open_1024x1024.jpg?v=1473299140",
+    "image_alt": "Defining Lip Brush",
+    "ingredients_grouping": "Designed in the iconic ILIA finish, this brush’s soft bristles are made with high-grade, synthetic Taklon, an easy-to-clean, cruelty-free material. Wash brush with mild soap and warm water."
+  },
+  {
+    "name": "Fade Into You",
+    "price": "34.00",
+    "size": "0.32oz / 9 g",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Soft_Focus_Finishing_Powder_Jar_1024x1024.jpg?v=1473296684",
+    "image_alt": "Fade Into You",
+    "ingredients_grouping": "Zea Mays (Corn) Starch*, Mica, Silica, Bambusa Arundinacea Stem Extract, Zinc Stearate, Passiflora Incarnata (Passionfruit) Steam/Leaf, Rosemary (Rosmarinus Officinalis) Leaf*, Ricinus Communis (Castor) Seed Oil*, Caprylic/Capric Triglyceride, Tocopherol, Aloe Barbadensis Leaf Powder*, Leuconostoc/Radish Root Ferment Filtrate. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques.This ingredient list is subject to change, it is the most up-to-date ingredient list and may differ from product packaging."
+  },
+  {
+    "name": "Sonora F1.5",
+    "price": "44.00",
+    "size": "1oz/ 30g",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Sonora_714b42c2-1894-4ac8-b529-17960d0b361d_1024x1024.jpg?v=1473297053",
+    "image_alt": "Sonora F1.5",
+    "ingredients_grouping": "Water (Aqua), Glycerin, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Helianthus Annuus (Sunflower) Seed Oil*, Rosa Canina (Rosehip) Seed Oil*, Behenyl Olivate, Pistacia Lentiscus Gum/Pistacia Lentiscus (Mastic) Gum, Lecithin, Caprylic/Capric Triglyceride, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Lavandula Angustifolia (Lavender) Flower/Leaf/Steam Extract, Eugenia Caryophyllus (Clove) Flower Extract, Vitis Vinifera (Grape) Fruit Extract, Citrus Aurantium Dulcis (Orange) Peel Wax, Vaccinium Macrocarpon (Cranberry) Fruit, Sodium Hyaluronate, Tocopherol, Allantoin, Phenethyl Alcohol, Ethylhexylglycerin. May contain: Mica, Titanium Dioxide CI77891, Red Oxide CI77491, Black Oxide CI77499, Yellow Oxide CI77492. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
+  },
+  {
+    "name": "Atacama F2.5",
+    "price": "44.00",
+    "size": "1oz/ 30g",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Atacama_1024x1024.jpg?v=1473297290",
+    "image_alt": "ILIA Foundation Atacama F2.5 ",
+    "ingredients_grouping": "Water (Aqua), Glycerin, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Helianthus Annuus (Sunflower) Seed Oil*, Rosa Canina (Rosehip) Seed Oil*, Behenyl Olivate, Pistacia Lentiscus Gum/Pistacia Lentiscus (Mastic) Gum, Lecithin, Caprylic/Capric Triglyceride, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Lavandula Angustifolia (Lavender) Flower/Leaf/Steam Extract, Eugenia Caryophyllus (Clove) Flower Extract, Vitis Vinifera (Grape) Fruit Extract, Citrus Aurantium Dulcis (Orange) Peel Wax, Vaccinium Macrocarpon (Cranberry) Fruit, Sodium Hyaluronate, Tocopherol, Allantoin, Phenethyl Alcohol, Ethylhexylglycerin. May contain: Mica, Titanium Dioxide CI77891, Red Oxide CI77491, Black Oxide CI77499, Yellow Oxide CI77492. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
+  },
+  {
+    "name": "Kalahari F3.5",
+    "price": "44.00",
+    "size": "1oz/ 30g",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Kalahari_1024x1024.jpg?v=1473297364",
+    "image_alt": "ILIA Foundation Kalahari F3.5",
+    "ingredients_grouping": "Water (Aqua), Glycerin, Cocos Nucifera (Coconut) Oil*, Polyglyceryl-2 Oleate, Polyhydroxystearic Acid, Polyglyceryl-2 Stearate, Helianthus Annuus (Sunflower) Seed Oil*, Rosa Canina (Rosehip) Seed Oil*, Behenyl Olivate, Pistacia Lentiscus Gum/Pistacia Lentiscus (Mastic) Gum, Lecithin, Caprylic/Capric Triglyceride, Jasminum Officinale (Jasmine) Flower/Leaf Extract, Lavandula Angustifolia (Lavender) Flower/Leaf/Steam Extract, Eugenia Caryophyllus (Clove) Flower Extract, Vitis Vinifera (Grape) Fruit Extract, Citrus Aurantium Dulcis (Orange) Peel Wax, Vaccinium Macrocarpon (Cranberry) Fruit, Sodium Hyaluronate, Tocopherol, Allantoin, Phenethyl Alcohol, Ethylhexylglycerin. May contain: Mica, Titanium Dioxide CI77891, Red Oxide CI77491, Black Oxide CI77499, Yellow Oxide CI77492. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
+  },
+  {
+    "name": "The Brides",
+    "price": null,
+    "size": "0.14oz / 4g",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_The_Brides_1024x1024.jpg?v=1473297704",
+    "image_alt": "ILIA Lipstick The Brides",
+    "ingredients_grouping": "Ricinus Communis (Castor) Seed Oil*, Sesamum Indicum (Sesame) Seed Oil*, Helianthus Annuus (Sunflower) Seed Oil*, Beeswax (Cera Alba)*, Triisostearyl Citrate, Euphorbia Cerifera (Candelilla) Wax, Theobroma Cacao (Cocoa) Seed Butter*, Zea Mays (Corn) Starch*, Linum Usitatissimum (Linseed) Flax Seed*, Olea Europaea (Olive) Fruit Oil*, Rosa Canina (Rosehip) Seed Oil*, Salvia Officinalis (Sage) Leaf*, Tocopherol. May contain: Mica, Titanium Dioxide CI77891, Black Oxide CI77499, Yellow Oxide CI77492, Red Oxide CI77491, Red 7 CI15850, Red 28 CI45410, Yellow 5 CI19140. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
+  },
+  {
+    "name": "Madam Mina",
+    "price": null,
+    "size": "0.14oz / 4g",
+    "image_url": "cdn.shopify.com/s/files/1/0127/2332/products/ILIA_Madam_Mina_1024x1024.jpg?v=1473297783",
+    "image_alt": "ILIA Lipstick Madam Mina",
+    "ingredients_grouping": "Ricinus Communis (Castor) Seed Oil*, Sesamum Indicum (Sesame) Seed Oil*, Helianthus Annuus (Sunflower) Seed Oil*, Beeswax (Cera Alba)*, Triisostearyl Citrate, Euphorbia Cerifera (Candelilla) Wax, Theobroma Cacao (Cocoa) Seed Butter*, Zea Mays (Corn) Starch*, Linum Usitatissimum (Linseed) Flax Seed*, Olea Europaea (Olive) Fruit Oil*, Rosa Canina (Rosehip) Seed Oil*, Salvia Officinalis (Sage) Leaf*, Tocopherol. May contain: Mica, Titanium Dioxide CI77891, Black Oxide CI77499, Yellow Oxide CI77492, Red Oxide CI77491, Red 7 CI15850, Red 28 CI45410, Yellow 5 CI19140. *Certified Organic Ingredients. Ingrédients Certifiés Biologiques."
   }
 ]

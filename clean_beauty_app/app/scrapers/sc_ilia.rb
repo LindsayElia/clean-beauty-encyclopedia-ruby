@@ -5,15 +5,17 @@ require 'json'
 # page with all the links to obtain - two pages
 list_ilia_1 = "https://iliabeauty.com/collections/all"
 list_ilia_2 = "https://iliabeauty.com/collections/all?page=2"
+list_ilia_3 = "https://iliabeauty.com/collections/all?page=3"
 domain_ilia = "https://iliabeauty.com"
 
 # get the html for the whole page
 list_body_1 = Nokogiri::HTML(RestClient.get(list_ilia_1))
 list_body_2 = Nokogiri::HTML(RestClient.get(list_ilia_2))
+list_body_3 = Nokogiri::HTML(RestClient.get(list_ilia_3))
 
 product_links = []
 
-all_lists = [list_body_1,list_body_2]
+all_lists = [list_body_1,list_body_2,list_body_3]
 all_lists.each do |page|
 	# for each element that is of class .thumbnail and an anchor element, loop over
 	page.css(".thumbnail a").each do |link|
@@ -28,6 +30,7 @@ end
 
 
 product_details = []
+count = 0
 product_links.each do |product_link|
 	product_body = Nokogiri::HTML(RestClient.get(product_link))
 	name = product_body.css(".product_name").text
@@ -63,7 +66,12 @@ product_links.each do |product_link|
 		image_alt: image_alt,
 		ingredients_grouping: ingredients_grouping
 	)
+
+	count = count + 1
+
 end
+puts "COUNT: "
+puts count
 
 readable_product_details = JSON.pretty_generate(product_details)
 
