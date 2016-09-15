@@ -41,7 +41,8 @@ product_links.each do |product_link|
 	# nokogiri gives me an array, with twice as many items in the array as elements I see on the page
 	# I want the 3rd from the last element out of the children
 	# so I'm using -6 which will give me the 6th from the last item in the array that nokogiri returns
-	size_element = product_body.css(".description").children[-6]
+	# also, some of the items (two?) have two .description class elements, so I'm getting the first of those with [0]
+	size_element = product_body.css(".description")[0].children[-6]
 	# some of the items do not have a size, so the child element will not exist, aka be 'nil'
 	if size_element.nil?
 		size = "N/A"
