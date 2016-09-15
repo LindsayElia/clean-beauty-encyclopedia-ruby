@@ -20,6 +20,7 @@ end
 # puts product_links.length
 
 product_details = []
+count = 0
 product_links.each do |product_link|
 	product_body = Nokogiri::HTML(RestClient.get(product_link))
 	
@@ -46,7 +47,12 @@ product_links.each do |product_link|
 		image_alt: image_alt,
 		ingredients_grouping: ingredients_grouping
 	)
+
+	count = count + 1
+
 end
+puts "COUNT: "
+puts count
 
 readable_product_details = JSON.pretty_generate(product_details)
 
