@@ -48,15 +48,15 @@ product_links.each do |product_link|
 	else
 		size = size_element.text
 	end
+# TO FIX:
+# some of the items, the size is not in the 6th from last place of the children,
+# or there are two elements with the class .description and this is picking up the 2nd?
 
 	image_url_string = product_body.css(".featured_image")[0]["src"]
 	image_url = image_url_string[2..-1]
 	image_alt = product_body.css(".featured_image")[0]["alt"]
 
-	# ingredients list is in the last child element of .description, in a <li> inside of a <ul>
-	# using .text gets us the innermost text and using .strip takes off a line of empty spacing
-	# so that we don't have to try to get a li after getting .children
-	ingredients_grouping = product_body.css(".description").children[-2].text.strip
+	ingredients_grouping = product_body.css("#ingredients").text
 
 	product_details.push(
 		name: name,
