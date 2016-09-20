@@ -1,2 +1,15 @@
 <h1>Brands#index</h1>
-<p>Find me in app/views/brands/index.html.erb</p>
+<p>Show a list of all brands in the db.</p>
+<p><%= link_to 'Home', root_path %></p>
+
+<ul>
+<% @brands.each do |brand| %>
+<hr>
+	<li><%= link_to brand.name, brands_show_path(brand) %></li>  
+	<li><%= brand.site_url %></li>
+	<li><%= brand.year_founded %></li>
+	<li><%= brand.is_vegan %></li>
+	<li><%= brand.contains_vegan %></li>
+	<li><%= brand.is_gluten_free %></li>
+<% end %>
+</ul>
