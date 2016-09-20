@@ -1,2 +1,12 @@
 <h1>Products#show</h1>
 <p>Find me in app/views/products/show.html.erb</p>
+<p><%= link_to 'Home', root_path %></p>
+<p><%= link_to 'All Products', products_path %></p>
+
+<p>Name: <%= @product.name %></p>
+<ul>
+	<li><img src="https://<%= @product.image_url %>" height="300" alt="<%= @product.image_alt %>"></li>
+	<li><%= @product.currency %> <%= @product.price %></li>
+	<li>Size: <%= @product.size %></li>
+	<li>Ingredients: <%= @product.ingredients_grouping %></li>
+</ul>
