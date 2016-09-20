@@ -1,2 +1,15 @@
 <h1>Brands#show</h1>
 <p>Find me in app/views/brands/show.html.erb</p>
+<p>Show full details of a single brand.</p>
+<p><%= link_to 'Home', root_path %></p>
+<p><%= link_to 'All Brands', brands_path %></p>
+
+<p><%= @brand.name %></p>
+<ul>
+	<li>Website: <%= @brand.site_url %></li>
+	<li>HQ country: <%= @brand.hq_country %></li>
+	<li>Year founded: <%= @brand.year_founded %></li>
+	<li>Entire line is vegan? <%= @brand.is_vegan %></li>
+	<li>Contains vegain? <%= @brand.contains_vegan %></li>
+	<li>Is gluten free? <%= @brand.is_gluten_free %></li>
+</ul>
