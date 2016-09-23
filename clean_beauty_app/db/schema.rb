@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160826214045) do
+ActiveRecord::Schema.define(version: 20160920214045) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20160826214045) do
   create_table "brands", force: :cascade do |t|
     t.text     "name"
     t.text     "site_url"
+    t.text     "logo"
     t.text     "hq_country"
     t.text     "hq_region"
     t.text     "hq_postal_code"
@@ -53,12 +54,14 @@ ActiveRecord::Schema.define(version: 20160826214045) do
     t.text     "name"
     t.text     "category"
     t.text     "application_type"
-    t.decimal  "price"
+    t.decimal  "price_float"
+    t.text     "price_string"
     t.text     "currency"
     t.text     "size"
     t.text     "ingredients_grouping"
     t.text     "image_url"
     t.text     "image_alt"
+    t.text     "original_url"
     t.integer  "brand_id"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false

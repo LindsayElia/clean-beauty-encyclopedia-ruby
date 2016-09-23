@@ -36,7 +36,7 @@ product_links.each do |product_link|
 	price = price_string[1..-1]		# removes first character from string; removing dollar symbol
 	size = product_body.css(".prod_size span").text
 	image_url_string = product_body.css(".main-image a img")[0]["src"]
-	image_url = image_url_string[2..-1]			# Remove first two characters from string. Returns characters starting at index 2 until end.
+	image_url = "https://" + image_url_string[2..-1]	# Remove first two characters from string. Returns characters starting at index 2 until end.
 	image_alt = product_body.css(".main-image a img")[0]["alt"]
 	ingredients_grouping = product_body.css("#tab3").text.strip
 	product_details.push(
@@ -45,7 +45,8 @@ product_links.each do |product_link|
 		size: size,
 		image_url: image_url,
 		image_alt: image_alt,
-		ingredients_grouping: ingredients_grouping
+		ingredients_grouping: ingredients_grouping,
+		original_url: product_link
 	)
 
 	count = count + 1

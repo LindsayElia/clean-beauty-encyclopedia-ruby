@@ -54,10 +54,10 @@ product_links.each do |product_link|
 # or there are two elements with the class .description and this is picking up the 2nd?
 
 	image_url_string = product_body.css(".featured_image")[0]["src"]
-	image_url = image_url_string[2..-1]
+	image_url = "https://" + image_url_string[2..-1]
 	image_alt = product_body.css(".featured_image")[0]["alt"]
 
-	ingredients_grouping = product_body.css("#ingredients").text
+	ingredients_grouping = product_body.css("#ingredients").text.strip
 
 	product_details.push(
 		name: name,
@@ -65,7 +65,8 @@ product_links.each do |product_link|
 		size: size,
 		image_url: image_url,
 		image_alt: image_alt,
-		ingredients_grouping: ingredients_grouping
+		ingredients_grouping: ingredients_grouping,
+		original_url: product_link
 	)
 
 	count = count + 1

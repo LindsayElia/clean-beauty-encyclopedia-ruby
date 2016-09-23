@@ -35,7 +35,8 @@ product_links.each do |product_link|
 		size: size,
 		image_url: image_url,
 		image_alt: image_alt,
-		ingredients_grouping: ingredients_grouping
+		ingredients_grouping: ingredients_grouping,
+		original_url: product_link
 	)
 
 	count = count + 1

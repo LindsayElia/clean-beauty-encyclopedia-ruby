@@ -3,6 +3,7 @@ class CreateBrands < ActiveRecord::Migration
     create_table :brands do |t|
       t.text :name
       t.text :site_url
+      t.text :logo
       t.text :hq_country
       t.text :hq_region
       t.text :hq_postal_code

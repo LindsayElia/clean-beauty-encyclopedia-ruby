@@ -4,7 +4,7 @@ class Product < ActiveRecord::Base
 		presence: true,
 		uniqueness: true
 
-	validates :price,
+	validates :price_float,
 		numericality: true
 
 	belongs_to :brand

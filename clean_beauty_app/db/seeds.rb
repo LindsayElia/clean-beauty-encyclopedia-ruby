@@ -9,6 +9,7 @@ unless Product.find_by(name: "One Love Organics")
 	brand_one_love_organics = Brand.create(
 		name: "One Love Organics",
 		site_url: "http://shop.oneloveorganics.com/",
+		logo: "http://oneloveorganics.com/wp-content/themes/olo_genesis/images/logo.png",
 		hq_country: "United States",
 		hq_region: "GA",
 		hq_postal_code: "31522",
@@ -23,6 +24,7 @@ unless Product.find_by(name: "Indie Lee")
 	brand_indie_lee = Brand.create(
 		name: "Indie Lee",
 		site_url: "http://indielee.com/shop/all-products",
+		logo: "http://indielee.com/shop/skin/frontend/indielee/default/images/indie_logo.png",
 		hq_country: "United States",
 		hq_region: "NY",
 		hq_postal_code: "10590",
@@ -35,6 +37,7 @@ unless Product.find_by(name: "Ilia")
 	brand_ilia = Brand.create(
 		name: "Ilia",
 		site_url: "https://iliabeauty.com/collections/all",
+		logo: "https://cdn.shopify.com/s/files/1/0127/2332/t/15/assets/logo.png?17685407568754088629",
 		hq_country: "United States",
 		hq_region: "CA",
 		year_founded: "2011",
@@ -61,12 +64,14 @@ data_one_love_organics.each do |item|
 		# using create! instead of create will tell us if there is a failure creating the record
 		product_one_love_organics = Product.create!(
 			name: item["name"],
-			price: (item["price"]).to_f,	# convert string to float to retain decimal and be saved as a number data type
+			price_float: (item["price"]).to_f,
+			price_string: item["price"],
 			currency: "USD",
 			size: item["size"],
 		    ingredients_grouping: item["ingredients_grouping"],
 		    image_url: item["image_url"],
-		    image_alt: item["image_alt"]
+		    image_alt: item["image_alt"],
+		    original_url: item["original_url"]
 			)
 		brand_one_love_organics.products << product_one_love_organics		# associate product with brand
 		count_one_love_organics = count_one_love_organics + 1
@@ -94,12 +99,14 @@ data_indie_lee.each do |item|
 	unless Product.find_by( name: item["name"])
 		product_indie_lee = Product.create!(
 			name: item["name"],
-			price: (item["price"]).to_f,
+			price_float: (item["price"]).to_f,
+			price_string: item["price"],
 			currency: "USD",
 			size: item["size"],
 		    ingredients_grouping: item["ingredients_grouping"],
 		    image_url: item["image_url"],
-		    image_alt: item["image_alt"]
+		    image_alt: item["image_alt"],
+		    original_url: item["original_url"]
 			)
 		brand_indie_lee.products << product_indie_lee
 		count_indie_lee = count_indie_lee + 1
@@ -118,7 +125,7 @@ data_indie_lee.each do |item|
 
 	end
 end
-puts "count of indeie lee items added to db:"
+puts "count of indie lee items added to db:"
 puts count_indie_lee
 
 
@@ -127,12 +134,14 @@ data_ilia.each do |item|
 	unless Product.find_by( name: item["name"])
 		product_ilia = Product.create!(
 			name: item["name"],
-			price: (item["price"]).to_f,
+			price_float: (item["price"]).to_f,
+			price_string: item["price"],
 			currency: "USD",
 			size: item["size"],
 		    ingredients_grouping: item["ingredients_grouping"],
 		    image_url: item["image_url"],
-		    image_alt: item["image_alt"]
+		    image_alt: item["image_alt"],
+		    original_url: item["original_url"]
 			)
 		brand_ilia.products << product_ilia
 		count_ilia = count_ilia + 1
