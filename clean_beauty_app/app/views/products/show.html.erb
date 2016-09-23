@@ -5,8 +5,16 @@
 
 <p>Name: <%= @product.name %></p>
 <ul>
-	<li><img src="https://<%= @product.image_url %>" height="300" alt="<%= @product.image_alt %>"></li>
-	<li><%= @product.currency %> <%= @product.price %></li>
+	<li><img src="<%= @product.image_url %>" height="300" alt="<%= @product.image_alt %>"></li>
+	<li><%= @product.currency %> <%= @product.price_string %></li>
 	<li>Size: <%= @product.size %></li>
 	<li>Ingredients: <%= @product.ingredients_grouping %></li>
+	<li>Original Product Details: <%= link_to 'More Info', @product.original_url %></li>
+</ul>
+
+<p>Ingredients from the ingredient table: </p>
+<ul>
+<% @product.ingredients.each do |ingredient| %>
+	<li><%= ingredient.name %></li>
+<% end %>
 </ul>

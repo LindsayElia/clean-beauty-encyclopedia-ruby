@@ -6,7 +6,7 @@
 <% @products.each do |product| %>
 <hr>
 	<li><%= link_to product.name, products_show_path(product) %></li>  
-	<li><img src="https://<%= product.image_url %>" height="150" alt="<%= product.image_alt %>"></li>
-	<li><%= product.currency %> <%= product.price %></li>
+	<li><img src="<%= product.image_url %>" height="150" alt="<%= product.image_alt %>"></li>
+	<li><%= product.currency %> <%= product.price_string %></li>
 <% end %>
 </ul>

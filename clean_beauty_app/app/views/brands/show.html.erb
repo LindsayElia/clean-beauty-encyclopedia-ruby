@@ -6,10 +6,18 @@
 
 <p><%= @brand.name %></p>
 <ul>
+	<li><img src="<%= @brand.logo %>" alt="brand logo"></li>
 	<li>Website: <%= @brand.site_url %></li>
 	<li>HQ country: <%= @brand.hq_country %></li>
 	<li>Year founded: <%= @brand.year_founded %></li>
 	<li>Entire line is vegan? <%= @brand.is_vegan %></li>
-	<li>Contains vegain? <%= @brand.contains_vegan %></li>
+	<li>Contains vegan? <%= @brand.contains_vegan %></li>
 	<li>Is gluten free? <%= @brand.is_gluten_free %></li>
+</ul>
+
+<p>Products by this brand: </p>
+<ul>
+<% @brand.products.each do |product| %>
+	<li><%= product.name %></li>
+<% end %>
 </ul>

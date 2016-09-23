@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Condensed:300|Roboto:100,400");
+/* backups: */
+/* Catamaran:300 */
+/* Fjalla+One */
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+.logo {
+	line-height: 1;
+	/*text-align: center;*/
+}
+
+.logo-top {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 4.5em;
+}
+
+.logo-bottom {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 1.7em;
+}
+
+
+
