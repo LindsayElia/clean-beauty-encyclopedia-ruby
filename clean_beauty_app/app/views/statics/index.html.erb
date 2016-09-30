@@ -1,9 +1,21 @@
-<h1>Statics#index</h1>
-<p>Find me in app/views/statics/index.html.erb</p>
-<p>Home page for entire site. For now start with categories to funnel people?</p>
+<div class="image-placeholder">this is gonna be an image!</div>
 
-<p>links to other views...</p>
-<ul>
-	<li><%= link_to 'All Brands', brands_path %></li>
-	<li><%= link_to 'All Products', products_path %></li>
-</ul>
+<div class="section">
+	<h1>What is Clean Beauty?</h1>
+	<div class="callout-link"><%= link_to 'Read More', products_path %></div>
+</div>
+
+<div class="section">
+	<h1>Find your Clean Beauty Starter Kit</h1>
+	<div class="callout-link"><%= link_to 'Read More', products_path %></div>
+</div>
+
+<div class="section-last">
+	<h1>Browse by...</h1>
+	<ul class="menu-cards">
+		<li class="menu-item-card"><%= link_to 'Product Type', products_path %></li>
+		<li class="menu-item-card"><%= link_to 'Brand', brands_path %></li>
+		<li class="menu-item-card">Concern</li>
+	</ul>
+</div>
+

@@ -14,15 +14,42 @@
  *= require_self
  */
 
-/* fonts */
+
+/******************************************
+FONTS
+******************************************/
+/* Max of three is recommended for best performance. 
+Each weight counts as it's own font, so I'm using 5 fonts here. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto+Condensed:300|Roboto:100,400");
 /* backups: */
 /* Catamaran:300 */
 /* Fjalla+One */
 
 
+/******************************************
+COLOR PALLETTE
+******************************************/
+/* clean white: #FFFFFF */
+/* cream: #F5F5F1 */
+/* sage / gray: #CBD1C7 */
+/* pink accents: #CB4A5D */
+
+/* still playing with where to place these: */
+/* lime green: #A1A652 */
+/* dark green: #304643 */
+/* dark blue/teal/almost black: #272730 */
+
+
+/******************************************
+BASE STYLES
+******************************************/
+
 * {
 	box-sizing: border-box;
+}
+
+html {
+	height: 100%;	/* for a sticky footer */
 }
 
 body {
@@ -30,25 +57,176 @@ body {
 	font-weight: 300;
 	margin: 0;
 	padding: 0;
-	font-size: 1em;
+	font-size: .8em;
+	background-color: #FFFFFF;	/* white */
+	min-height: 100%;	/* for a sticky footer */
+	display: flex;	/* for a sticky footer */
+	flex-direction: column;	  /* for a sticky footer */
 }
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 1.6em;
+	color: #304643;
+	/*color: #272730;*/
+	font-weight: normal;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000000; /* black */
+}
+
+	a:visited {
+		color: #000000; /* black */
+	}
+
+/******************************************
+HEADER
+******************************************/
+
+.nav-header-first {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+	.nav-header-first-inner {
+		max-width: 990px;
+		margin: 0 auto;
+	}
 
 .logo {
 	line-height: 1;
-	/*text-align: center;*/
+	text-align: center;
+	color: #A1A652;
+	float: left;
 }
 
-.logo-top {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 4.5em;
+	.logo-top {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 100;
+		font-size: 4.5em;
+	}
+
+	.logo-bottom {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: 300;
+		font-size: 1.7em;
+	}
+
+	.logo a, .logo a:visited {
+		color: #A1A652;
+	}
+
+.nav-header-second {
+	border-top: 2px solid #CBD1C7;	/* sage/gray */
+	border-bottom: 2px solid #CBD1C7;	/* sage/gray */
 }
 
-.logo-bottom {
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 300;
-	font-size: 1.7em;
+	.nav-header-second-inner {
+		max-width: 990px;
+		margin: 0 auto;
+	}
+
+.menu-header-row {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
 }
+
+	.menu-item {
+		display: inline;
+		font-size: 1.25em;
+		flex: 1;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		border-bottom: 2px solid #CBD1C7;	/* sage/gray */
+		margin-bottom: -2px;
+	}
+
+	.menu-item:hover, .menu-item:active {
+		border-bottom: 2px solid #CB4A5D;	/* pink */
+	}
+
+
+/******************************************
+CENTER / MAIN CONTENT AREA - GLOBAL
+******************************************/
+
+.main-content {
+	background-color: #F5F5F1;  /* cream */
+	flex: 1;	/* for a sticky footer */
+}
+
+	.main-content-inner {
+		max-width: 990px;
+		margin: 0 auto;
+	}
+
+
+/******************************************
+FOOTER
+******************************************/
+
+.footer {
+	background-color: #CBD1C7;  /* sage/gray */
+	padding: 1em;
+	padding-bottom: 2em;
+}
+
+	.footer-inner {
+		max-width: 990px;
+		margin: 0 auto;
+	}
+
+
+/******************************************
+INDEX PAGE
+******************************************/
+
+.image-placeholder {
+	background-color: #CBD1C7;	/* sage/gray */
+	height: 250px;
+	max-width: 1000px;
+	margin: 10px auto;
+}
+
+.section, .section-last {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+	.section {
+		border-bottom: 2px solid #CBD1C7;	/* sage/gray */
+	}
+
+.callout-link {
+	padding: 1.5em;
+	font-size: 1em;
+}
+
+.menu-cards {
+	list-style: none;
+}
+
+.menu-item-card {
+	display: inline-block;
+	border: 2px solid #CBD1C7;	/* sage/gray */
+	padding: 3em;
+	margin: 1em;
+}
+
+
+
+
+
 
 
 
