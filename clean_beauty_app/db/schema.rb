@@ -52,8 +52,6 @@ ActiveRecord::Schema.define(version: 20160920214045) do
 
   create_table "products", force: :cascade do |t|
     t.text     "name"
-    t.text     "category"
-    t.text     "application_type"
     t.decimal  "price_float"
     t.text     "price_string"
     t.text     "currency"
@@ -62,6 +60,15 @@ ActiveRecord::Schema.define(version: 20160920214045) do
     t.text     "image_url"
     t.text     "image_alt"
     t.text     "original_url"
+    t.text     "category_high_level"
+    t.text     "category_mid_level"
+    t.text     "category_low_level"
+    t.text     "application_type"
+    t.boolean  "concern_vegan"
+    t.boolean  "cconcern_gluten_free"
+    t.boolean  "concern_acne"
+    t.boolean  "concern_eczema"
+    t.boolean  "concern_rosacea"
     t.integer  "brand_id"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
