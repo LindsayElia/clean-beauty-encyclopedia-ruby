@@ -272,6 +272,9 @@ BRANDS SHOW	 PAGE
 .brand-logo-detail-page {
 	max-width: 50%;
 	margin: 0 auto;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .brand-show-table {
