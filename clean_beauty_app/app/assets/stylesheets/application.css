@@ -87,6 +87,22 @@ a {
 		color: #000000; /* black */
 	}
 
+.section, .section-last {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+	.section {
+		border-bottom: 2px solid #CBD1C7;	/* sage/gray */
+	}
+
+.callout-link {
+	padding: 1.5em;
+	font-size: 1em;
+}
+
+
 /******************************************
 HEADER
 ******************************************/
@@ -198,21 +214,6 @@ INDEX PAGE
 	margin: 10px auto;
 }
 
-.section, .section-last {
-	padding-top: 2em;
-	padding-bottom: 2em;
-	text-align: center;
-}
-
-	.section {
-		border-bottom: 2px solid #CBD1C7;	/* sage/gray */
-	}
-
-.callout-link {
-	padding: 1.5em;
-	font-size: 1em;
-}
-
 .menu-cards {
 	list-style: none;
 }
@@ -226,10 +227,10 @@ INDEX PAGE
 
 
 /******************************************
-BRANDS PAGE
+BRANDS INDEX PAGE
 ******************************************/
 
-.brand-cards-area {
+.brands-index-area {
 	padding: 20px 10px;
 }
 
@@ -258,6 +259,24 @@ BRANDS PAGE
 
 .brand-card-name {
 	font-weight: bold;
+}
+
+/******************************************
+BRANDS SHOW	 PAGE
+******************************************/
+
+.brands-show-area {
+	padding: 20px 10px;
+}
+
+.brand-logo-detail-page {
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.brand-show-table {
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 /******************************************
