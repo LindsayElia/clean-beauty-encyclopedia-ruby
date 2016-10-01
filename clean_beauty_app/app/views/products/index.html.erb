@@ -1,12 +1,16 @@
-<h1>Products#index</h1>
-<p>Find me in app/views/products/index.html.erb</p>
-<p><%= link_to 'Home', root_path%></p>
+<div class="left-column">
+	<div class="left-sidebar"></div>
+	<p>stuff</p>
+</div>
 
-<ul>
-<% @products.each do |product| %>
-<hr>
-	<li><%= link_to product.name, products_show_path(product) %></li>  
-	<li><img src="<%= product.image_url %>" height="150" alt="<%= product.image_alt %>"></li>
-	<li><%= product.currency %> <%= product.price_string %></li>
-<% end %>
-</ul>
+<div class="right-column">
+
+	<% @products.each do |product| %>
+		<div>
+			<li><%= link_to product.name, products_show_path(product) %></li>  
+			<li><img src="<%= product.image_url %>" height="150" alt="<%= product.image_alt %>"></li>
+			<li><%= product.currency %> <%= product.price_string %></li>
+		</div>
+	<% end %>
+
+</div>
