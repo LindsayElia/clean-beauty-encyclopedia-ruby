@@ -8,7 +8,7 @@
 unless Product.find_by(name: "One Love Organics")
 	brand_one_love_organics = Brand.create(
 		name: "One Love Organics",
-		site_url: "http://shop.oneloveorganics.com/",
+		site_url: "http://oneloveorganics.com/",
 		logo: "http://oneloveorganics.com/wp-content/themes/olo_genesis/images/logo.png",
 		hq_country: "United States",
 		hq_region: "GA",
@@ -23,7 +23,7 @@ end
 unless Product.find_by(name: "Indie Lee")
 	brand_indie_lee = Brand.create(
 		name: "Indie Lee",
-		site_url: "http://indielee.com/shop/all-products",
+		site_url: "http://indielee.com/",
 		logo: "http://indielee.com/shop/skin/frontend/indielee/default/images/indie_logo.png",
 		hq_country: "United States",
 		hq_region: "NY",
@@ -36,7 +36,7 @@ end
 unless Product.find_by(name: "Ilia")
 	brand_ilia = Brand.create(
 		name: "Ilia",
-		site_url: "https://iliabeauty.com/collections/all",
+		site_url: "https://iliabeauty.com/",
 		logo: "https://cdn.shopify.com/s/files/1/0127/2332/t/15/assets/logo.png?17685407568754088629",
 		hq_country: "United States",
 		hq_region: "CA",
