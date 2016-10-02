@@ -92,7 +92,7 @@ table {
 	border-collapse: collapse;
 }
 
-	td, th {
+	td, th  {
 		border: 1px solid #CBD1C7;	/* sage/gray */
 		padding: .5em 1em;
 	}
