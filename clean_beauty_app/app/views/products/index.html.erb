@@ -1,24 +1,34 @@
 <div class="left-column">
-	<div class="left-sidebar"></div>
-	<p>stuff</p>
+	<div class="left-column-inner">
+		<h1>Refine By...</h1>
+		<div class="panel">
+			<div class="panel-heading">Categories</div>
+			<div class="panel-heading">Brands</div>
+			<div class="panel-heading">Concern</div>
+			<div class="panel-heading">Ingredients</div>
+			<div class="panel-heading">Price Range</div>
+		</div>
+	</div>
 </div>
 
 <div class="right-column">
 
-	<% @products.each do |product| %>
-		<div>
-			<li><%= link_to product.name, products_show_path(product) %></li>  
-			<li><img src="<%= product.image_url %>" height="150" alt="<%= product.image_alt %>"></li>
-			<li><%= product.currency %> <%= product.price_string %></li>
-		</div>
-	<% end %>
+		<% @products.each do |product| %>
+
+			<a href="<%= products_show_path(product) %>">
+
+				<div class="product-card">
+
+					<div class="product-card-image-container">
+						<img src="<%= product.image_url %>" alt="image of <%= product.image_alt %>" class="product-card-image-inner">
+					</div>
+					<div class="product-card-name"><%= product.name %></div>  
+					<div class="product-card-price"><%= product.currency %> <%= product.price_string %></div>
+
+				</div>
+
+			</a>
+
+		<% end %>
 
 </div>
-
-
-<!-- <p>Products by this brand: </p>
-<ul>
-<% @brand.products.each do |product| %>
-	<li><%= product.name %></li>
-<% end %>
-</ul> -->
