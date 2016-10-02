@@ -1,20 +1,79 @@
-<h1>Products#show</h1>
-<p>Find me in app/views/products/show.html.erb</p>
-<p><%= link_to 'Home', root_path %></p>
-<p><%= link_to 'All Products', products_path %></p>
+<div class="products-show-left-column">
+	<div class="product-show-image-container">
+		<img src="<%= @product.image_url %>" alt="<%= @product.image_alt %>" class="product-show-image-inner">
+	</div>
+</div>
 
-<p>Name: <%= @product.name %></p>
-<ul>
-	<li><img src="<%= @product.image_url %>" height="300" alt="<%= @product.image_alt %>"></li>
-	<li><%= @product.currency %> <%= @product.price_string %></li>
-	<li>Size: <%= @product.size %></li>
-	<li>Ingredients: <%= @product.ingredients_grouping %></li>
-	<li>Original Product Details: <%= link_to 'More Info', @product.original_url %></li>
-</ul>
+<div class="products-show-right-column">
+	
+	<table>
+		<tr>
+			<td>Product Name</td>
+			<td><%= @product.name %></td>
+		</tr>
+		<tr>
+			<td>Product Brand</td>
+			<td><%= @product.brand.name %></td>
+		</tr>
+		<tr>
+			<td>Price</td>
+			<td><%= @product.currency %> <%= @product.price_string %></td>
+		</tr>
+		<tr>
+			<td>Size</td>
+			<td><%= @product.size %></td>
+		</tr>
+		<tr>
+			<td>Category</td>
+			<td><%= @product.category_high_level %>, <%= @product.category_mid_level %>, <%= @product.category_low_level %></td>
+		</tr>
+		<tr>
+			<td>Application Type</td>
+			<td><%= @product.application_type %></td>
+		</tr>
+		<tr>
+			<td>Original Product Details</td>
+			<td><a href="<%= @product.original_url %>" target="blank">More Info</a></td>
+		</tr>
+	</table>
 
-<p>Ingredients from the ingredient table: </p>
-<ul>
-<% @product.ingredients.each do |ingredient| %>
-	<li><%= ingredient.name %></li>
-<% end %>
-</ul>
+</div>
+
+<div class="section product-ingredients-list">
+
+	<h3>Ingredients as listed on product packaging:</h3>
+	<p><%= @product.ingredients_grouping %></p>
+
+</div>
+
+<div class="section-last product-ingredients-table">
+
+	<h2 class="ingredients-heading">Ingredients Breakdown</h2>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Simple Name</th>
+				<th>As Listed on Packaging</th>
+				<th>Organic</th>
+				<th>Vegan</th>
+				<th>Links</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+				<% @product.ingredients.each do |ingredient| %>
+				<tr>
+					<td><%= ingredient.alternate_names %></td>
+					<td><%= ingredient.name %></td>
+					<td><%= ingredient.is_organic %></td>
+					<td><%= ingredient.is_animal_derived %></td>
+					<td>More Info</td>
+				</tr>
+			<% end %>
+
+		</tbody>
+	</table>
+
+</div>
+
