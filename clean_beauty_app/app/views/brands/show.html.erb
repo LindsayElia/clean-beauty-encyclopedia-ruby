@@ -4,19 +4,19 @@
 
 	<table class="brand-show-table">
 		<tr>
-			<td>Company website: </td>
+			<td>Company website:</td>
 			<td><a href="<%= @brand.site_url %>" target="blank"><%= @brand.site_url %></a></td>
 		</tr>
 		<tr>
-			<td>Year founded: </td>
+			<td>Year founded:</td>
 			<td><%= @brand.year_founded %></td>
 		</tr>
 		<tr>
-			<td>Headquarters country: </td>
+			<td>Headquarters country:</td>
 			<td><%= @brand.hq_country %></td>
 		</tr>
 		<tr>
-			<td>Is the entire brand's line vegan? </td>
+			<td>Is the entire brand's line vegan?</td>
 			<td>
 				<% if @brand.is_vegan == true %>
 					Yes
@@ -26,7 +26,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>Does the brand contain some vegan products? </td>
+			<td>Does the brand contain some vegan products?</td>
 			<td>
 				<% if @brand.contains_vegan == true %>
 					Yes
@@ -36,7 +36,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>Is the entire brand's line gluten free? </td>
+			<td>Is the entire brand's line gluten free?</td>
 			<td>
 				<% if @brand.is_gluten_free == true %>
 					Yes
@@ -46,7 +46,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td>Number of products by this brand: </td>
+			<td>Number of products by this brand:</td>
 			<td><%= @brand.products.count %></td>
 		</tr>
 	</table>
