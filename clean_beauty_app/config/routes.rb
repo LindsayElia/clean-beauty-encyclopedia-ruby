@@ -3,6 +3,9 @@ Rails.application.routes.draw do
     root 'statics#index'
     get '/statics', to: 'statics#index'
 
+    get '/articles/what_is_clean_beauty', to: 'articles#what_is_clean_beauty'
+    get '/articles/starter_kit', to: 'articles#starter_kit'
+
     get '/brands', to: 'brands#index'
     get '/brands/:id', to: 'brands#show', as: 'brands_show'	# this should go after create, new, edit if I add routes for those later
 
@@ -11,13 +14,15 @@ Rails.application.routes.draw do
 
 end
 
-#        Prefix Verb URI Pattern             Controller#Action
-#          root GET  /                       statics#index
-#       statics GET  /statics(.:format)      statics#index
-#        brands GET  /brands(.:format)       brands#index
-#   brands_show GET  /brands/:id(.:format)   brands#show
-#      products GET  /products(.:format)     products#index
-# products_show GET  /products/:id(.:format) products#show
+#                        Prefix Verb URI Pattern                              Controller#Action
+#                          root GET  /                                        statics#index
+#                       statics GET  /statics(.:format)                       statics#index
+# articles_what_is_clean_beauty GET  /articles/what_is_clean_beauty(.:format) articles#what_is_clean_beauty
+#          articles_starter_kit GET  /articles/starter_kit(.:format)          articles#starter_kit
+#                        brands GET  /brands(.:format)                        brands#index
+#                   brands_show GET  /brands/:id(.:format)                    brands#show
+#                      products GET  /products(.:format)                      products#index
+#                 products_show GET  /products/:id(.:format)                  products#show
 
 # what do the parts of the routes mean?
 # 	'/brands/:id is the URL to be matched.
