@@ -24,10 +24,17 @@ class Product < ActiveRecord::Base
 		"#{id}-#{slug}"
 	end
 
-	# filtering
-	scope :by_category_high_level, -> category_high_level { where(:category_high_level => category_high_level) }
-	scope :by_category_mid_level, -> category_mid_level { where(:category_mid_level => category_mid_level) }
-	scope :by_category_low_level, -> category_low_level { where(:category_low_level => category_low_level) }
+	# filtering - use scopes
+	scope :by_category_high_level, -> { where(:category_high_level => category_high_level) }
+	scope :by_category_mid_level, -> { where(:category_mid_level => category_mid_level) }
+
+	# format for passing in arguments
+	#      method name				 	argument to pass in				column name				  argument we just defined on the left
+	# scope :by_category_low_level, 	-> 	(category_low_level) 	{ where("category_low_level = ?", category_low_level) }
+
+	scope :makeup, -> { where(category_high_level: "makeup") }
+	scope :body_hair, -> { where("category_high_level = ? OR category_high_level = ?", "body_care", "hair_care") }
+	scope :other, -> { where(category_high_level: "other") }
 
 
 end
