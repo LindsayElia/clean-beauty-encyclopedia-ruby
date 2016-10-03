@@ -1,21 +1,31 @@
-<div class="image-placeholder">this is gonna be an image!</div>
+<div class="image-placeholder">this is going be an image</div>
 
 <div class="section">
 	<h1>What is Clean Beauty?</h1>
-	<div class="callout-link"><%= link_to 'Read More', articles_what_is_clean_beauty_path %></div>
+	<a href="<%= articles_what_is_clean_beauty_path %>">
+		<div class="callout-link-card">Read More</div>
+	</a>
 </div>
 
 <div class="section">
 	<h1>Find your Clean Beauty Starter Kit</h1>
-	<div class="callout-link"><%= link_to 'Read More', articles_starter_kit_path %></div>
+	<a href="<%= articles_starter_kit_path %>">
+		<div class="callout-link-card">Read More</div>
+	</a>
 </div>
 
 <div class="section-last">
 	<h1>Browse by...</h1>
 	<ul class="menu-cards">
-		<li class="menu-item-card"><%= link_to 'Category', products_path %></li>
-		<li class="menu-item-card"><%= link_to 'Brand', brands_path %></li>
-		<li class="menu-item-card">Concern</li>
+		<a href="<%= products_path %>">
+			<li class="menu-item-card">Category</li>
+		</a>
+		<a href="<%= brands_path %>">
+			<li class="menu-item-card">Brand</li>
+		</a>
+		<a href="<%= products_path %>">
+			<li class="menu-item-card">Concern</li>
+		</a>
 	</ul>
 </div>
 

@@ -107,10 +107,19 @@ table {
 		border-bottom: 2px solid #CBD1C7;	/* sage/gray */
 	}
 
-.callout-link {
-	padding: 1.5em;
-	font-size: 1em;
+.callout-link-card {
+	margin: 2em;
+	padding: 2em;
+	display: inline-block;
+	border: 2px solid #CB4A5D;	/* pink */
+	background-color: #FFFFFF;	/* white */
+	font-size: 1.2em;
 }
+
+	.callout-link-card:hover, .callout-link-card:hover {
+		background-color: #CBD1C7;	/* sage/gray */
+		color: #CB4A5D;	  /* pink */
+	}
 
 
 /******************************************
@@ -168,13 +177,16 @@ HEADER
 }
 
 	.menu-item {
-		display: inline;
 		font-size: 1.25em;
 		flex: 1;
 		padding-top: 1em;
 		padding-bottom: 1em;
 		border-bottom: 2px solid #CBD1C7;	/* sage/gray */
 		margin-bottom: -2px;
+	}
+
+	.menu-item li {
+		display: inline;
 	}
 
 	.menu-item:hover, .menu-item:active {
@@ -230,11 +242,17 @@ INDEX PAGE
 
 .menu-item-card {
 	display: inline-block;
-	border: 2px solid #CBD1C7;	/* sage/gray */
-	padding: 3em;
 	margin: 1em;
+	padding: 3em;
+	border: 2px solid #CBD1C7;	/* sage/gray */
+	background-color: #FFFFFF;	/* white */
+	font-size: 1.2em;
 }
 
+	.menu-item-card:hover, .menu-item-card:hover {
+		background-color: #CBD1C7;	/* sage/gray */
+		color: #CB4A5D;	  /* pink */
+	}
 
 /******************************************
 BRANDS INDEX PAGE

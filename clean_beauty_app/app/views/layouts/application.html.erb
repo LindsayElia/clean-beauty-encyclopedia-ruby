@@ -22,12 +22,24 @@
 <div class="nav-header-second">
 	<div class="nav-header-second-inner">
 		<ul class="menu-header-row">
-			<li class="menu-item"><%= link_to 'Brands', brands_path %></li>
-			<li class="menu-item">Concerns</li>
-			<li class="menu-item">Beauty</li>
-			<li class="menu-item">Body &amp; Hair</li>
-			<li class="menu-item">More</li>
-			<li class="menu-item">Learn</li>
+			<a href="<%= brands_path %>" class="menu-item">
+				<li>Brands</li>
+			</a>
+			<a href="<%= products_path %>" class="menu-item">
+				<li>Concerns</li>
+			</a>
+			<a href="<%= products_path %>" class="menu-item">
+				<li>Beauty</li>
+			</a>
+			<a href="<%= products_path %>" class="menu-item">
+				<li>Body &amp; Hair</li>
+			</a>
+			<a href="<%= products_path %>" class="menu-item">
+				<li>More</li>
+			</a>
+			<a href="<%= articles_what_is_clean_beauty_path %>" class="menu-item">
+				<li>Learn</li>
+			</a>
 		</ul>
 	</div>
 </div>
