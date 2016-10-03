@@ -79,7 +79,7 @@ h1 {
 }
 
 h2, h3 {
-	color: #304643;
+	color: #304643;	  /* dark green */
 }
 
 a {
@@ -377,6 +377,56 @@ PRODUCTS INDEX PAGE
 	.product-card-name, .product-card-price {
 		padding-left: 10px;
 	}
+
+
+/* SIDEBAR */
+
+.panel {
+	border: 1px solid #304643;	 /* dark green */
+}
+
+.panel-heading {
+	padding-left: 10px;
+	padding-top: 1px;
+	background-color: #CBD1C7;	/* sage/gray */
+	border-bottom: 1px solid #304643;	 /* dark green */
+}
+
+	.panel-heading-last {
+		border-bottom: 1px solid #CBD1C7;	/* sage/gray */
+	}
+
+.panel-form-area {
+	padding: 10px;
+	border-bottom: 1px solid #304643;	 /* dark green */
+}
+
+.form-option-group {
+
+}
+
+.checkbox-button {
+	
+}
+
+.button {
+	margin: 5px;
+	padding: 5px; 
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	-webkit-appearance: none;	/* override chrome's native button styling */
+	-moz-appearance: none;	  /* override firefox's native button styling */
+}
+
+	.button:hover, .button:active {
+		background-color: #FFFFFF;	/* white */
+	}
+
+.form-submit-button {
+	padding-top: 10px;
+	text-align: end;
+}
 
 
 /******************************************
