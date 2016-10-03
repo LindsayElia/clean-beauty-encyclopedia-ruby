@@ -271,6 +271,10 @@ BRANDS INDEX PAGE
 	float: left;
 }
 
+	.brand-card:hover, .brand-card:active {
+		border: 1px solid #CB4A5D;	  /* pink */
+	}
+
 .brand-card-image-container {
 	width: 150px;
 	height: 50px;
@@ -347,6 +351,10 @@ PRODUCTS INDEX PAGE
 	background-color: #FFFFFF;	/* white */
 	margin-bottom: 25px;
 }
+
+	.product-card:hover, .product-card:active {
+		border: 1px solid #CB4A5D;	  /* pink */
+	}
 
 	.product-card-image-container {
 		width: 150px;
