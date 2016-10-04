@@ -32,9 +32,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# for filtering
-# gem 'has_scope'
-
 # for web crawling and scraping
 gem 'nokogiri'
 gem 'rest-client'
@@ -70,3 +67,6 @@ group :development, :test do
 
 end
 
+gem 'rails_12factor', :group => :production
+gem 'puma'
+ruby "2.2.1"
