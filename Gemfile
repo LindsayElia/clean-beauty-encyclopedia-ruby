@@ -65,7 +65,7 @@ group :development, :test do
 	gem 'shoulda-matchers'
 	gem 'capybara'
 
-	gem 'dotevn-rails'
+	gem 'dotenv-rails'
 end
 
 gem 'rails_12factor', :group => :production
