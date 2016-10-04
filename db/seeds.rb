@@ -51,9 +51,10 @@ end
 # PRODUCT DATA #############################
 
 # read/import files containing data
-data_one_love_organics = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/one_love_organics.json'))
-data_indie_lee = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/indie_lee.json'))
-data_ilia = ActiveSupport::JSON.decode(File.read('db/data_from_scraping/ilia.json'))
+# these used to read from db/data_fr... 
+data_one_love_organics = ActiveSupport::JSON.decode(File.read('data_from_scraping/one_love_organics.json'))
+data_indie_lee = ActiveSupport::JSON.decode(File.read('data_from_scraping/indie_lee.json'))
+data_ilia = ActiveSupport::JSON.decode(File.read('data_from_scraping/ilia.json'))
 
 
 # create products and ingredients, associate both
