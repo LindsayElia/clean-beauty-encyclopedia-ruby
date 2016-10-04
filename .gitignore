@@ -16,5 +16,5 @@ tmp/
 
 .env
 app/scrapers/practice.rb
-
+app/scrapers/*
 
