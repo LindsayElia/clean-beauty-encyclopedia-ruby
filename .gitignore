@@ -14,5 +14,7 @@
 config/secrets.yml
 
 .env
-config/secrets.yml
 app/scrapers/practice.rb
+
+log/
+tmp/
