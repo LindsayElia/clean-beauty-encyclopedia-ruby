@@ -4,8 +4,7 @@
 #### Project Description
 A site where people will be able to search by ingredients, features, price, etc, of clean beauty products.
 
-Project will be eventually be live at [www.cleanbeautyencyclopedia.com](http://www.cleanbeautyencyclopedia.com/).
-A temporary live version is at [https://clean-beauty-encyclopedia.herokuapp.com/](https://clean-beauty-encyclopedia.herokuapp.com/).
+Project will be eventually be live at [www.cleanbeautyencyclopedia.com](http://www.cleanbeautyencyclopedia.com/). Please note that the version at this URL may be older than what is shown here on GitHub.
 
 #### Technologies Used
 
