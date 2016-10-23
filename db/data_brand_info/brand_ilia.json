@@ -1,0 +1,13 @@
+[
+  {
+    "name": "IliaTEST",
+    "site_url:": "https://iliabeauty.com/",
+    "logo": "https://cdn.shopify.com/s/files/1/0127/2332/t/15/assets/logo.png?17685407568754088629",
+    "hq_country": "United States",
+    "hq_region": "CA",
+	"year_founded": "2011",
+	"is_vegan": "false",
+	"contains_vegan": "true",
+	"is_gluten_free": "true"
+  }
+]
